@@ -1,0 +1,54 @@
+# ========================================
+# REQUIREMENTS.TXT - Complete Dependencies
+# For Trading Analysis AlgoTradar Project
+# ========================================
+
+# Web scraping and browser automation
+selenium>=4.15.0                    # Browser automation (get_aave.py, get_allassetcap.py, get_companycap.py, get_government_holding.py)
+webdriver-manager>=4.0.0            # Chrome driver management
+beautifulsoup4>=4.12.0              # HTML parsing (get_aave.py, get_calendar.py, get_company_holding.py)
+cloudscraper>=1.2.60               # Anti-bot web scraping (get_calendar.py)
+requests>=2.31.0                   # HTTP requests (multiple files)
+
+# Database and API clients  
+supabase>=2.0.0                    # Supabase database client (all files)
+clickhouse-connect>=0.6.0          # ClickHouse database (get_algo724.py)
+
+# Data processing and analysis
+pandas>=2.0.0                      # Data manipulation (get_algo724.py, get_dominance.py)
+pytz>=2023.3                       # Timezone handling (get_algo724.py)
+numpy>=1.24.0                      # Numerical computing (pandas dependency)
+
+# Environment and configuration
+python-dotenv>=1.0.0               # Environment variables (all files)
+
+# AI and Machine Learning
+openai>=1.0.0                      # OpenAI API (get_allassetcap.py, get_companycap.py, get_news.py)
+
+# HTTP and networking
+requests>=2.31.0                   # HTTP requests
+urllib3>=2.0.0                     # HTTP client library
+certifi>=2023.0.0                  # Certificate validation
+charset-normalizer>=3.0.0          # Character encoding detection
+idna>=3.0.0                        # Internationalized domain names
+
+# HTML/XML parsing
+lxml>=4.9.0                        # XML/HTML parsing (BeautifulSoup backend)
+soupsieve>=2.3.0                   # CSS selector library (BeautifulSoup dependency)
+
+# Date and time handling
+python-dateutil>=2.8.0             # Date parsing utilities (pandas dependency)
+
+# Additional utilities commonly needed
+setuptools>=65.0.0                 # Package management utilities
+packaging>=21.0.0                  # Version parsing utilities
+six>=1.16.0                        # Python 2/3 compatibility utilities
+
+# Optional but recommended for production
+psutil>=5.9.0                      # System monitoring (useful for server deployment)
+cryptography>=41.0.0               # Cryptographic operations (supabase/requests dependency)
+
+# Development and debugging (optional)
+# Uncomment if needed for debugging:
+# ipython>=8.0.0                   # Enhanced interactive Python shell
+# jupyter>=1.0.0                   # Jupyter notebook support 

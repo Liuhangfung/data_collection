@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: algotradar-scraper
+    environment:
+      - DISPLAY=:99
+    volumes:
+      - ./.env:/app/.env:ro  # Mount your .env file
+      - ./logs:/app/logs     # Optional: for log files
+    # Add this if you need to access from outside
+    # ports:
+    #   - "8080:8080"
+    
+    # Resource limits (adjust based on your needs)
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Run different scrapers by overriding the command
+    # command: python get_dominance.py
+
+  # Optional: Run specific scrapers as separate services  
+  aave-scraper:
+    build: .
+    container_name: aave-scraper
+    environment:
+      - DISPLAY=:99
+    volumes:
+      - ./.env:/app/.env:ro
+    command: python get_aave.py
+    profiles: ["manual"]  # Only run when specified
+    
+  news-scraper:
+    build: .
+    container_name: news-scraper  
+    environment:
+      - DISPLAY=:99
+    volumes:
+      - ./.env:/app/.env:ro
+    command: python get_news.py
+    profiles: ["manual"] 

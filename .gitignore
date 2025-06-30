@@ -87,4 +87,11 @@ Desktop.ini
 htmlcov/
 .coverage
 .coverage.*
-coverage.xml 
+coverage.xml
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Logs directory
+logs/ 

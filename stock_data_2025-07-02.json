@@ -1,0 +1,5002 @@
+[
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corp",
+    "market_cap": 3642764073675.15,
+    "current_price": 492.05,
+    "previous_close": 496.47,
+    "percentage_change": -0.8902854150301157,
+    "volume": 19945375,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Nvidia Corp",
+    "market_cap": 3606919689913.5,
+    "current_price": 153.3,
+    "previous_close": 156.29,
+    "percentage_change": -1.9131102437775807,
+    "volume": 213143621,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "market_cap": 2991645947800,
+    "current_price": 207.82,
+    "previous_close": 206.665,
+    "percentage_change": 0.5588754748022168,
+    "volume": 78788867,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.Com Inc",
+    "market_cap": 2258841301637.39,
+    "current_price": 220.46,
+    "previous_close": 219.5,
+    "percentage_change": 0.43735763097950253,
+    "volume": 39256830,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "GOOG",
+    "name": "Alphabet Inc. Class C Capital Stock",
+    "market_cap": 2035483175681.4402,
+    "current_price": 176.91,
+    "previous_close": 176.805,
+    "percentage_change": 0.059387460761850495,
+    "volume": 25778460,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "market_cap": 2023712466963.12,
+    "current_price": 175.84,
+    "previous_close": 175.735,
+    "percentage_change": 0.05974905397330626,
+    "volume": 35904526,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms, Inc. Class A Common Stock",
+    "market_cap": 1790703866737.8,
+    "current_price": 719.22,
+    "previous_close": 736.875,
+    "percentage_change": -2.395928753180658,
+    "volume": 13431248,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom Inc. Common Stock",
+    "market_cap": 1240634540130.8298,
+    "current_price": 264.74,
+    "previous_close": 274.4,
+    "percentage_change": -3.520408163265295,
+    "volume": 28847626,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+    "market_cap": 1141501869959.36,
+    "current_price": 224.68,
+    "previous_close": 227.425,
+    "percentage_change": -1.2069913158184038,
+    "volume": 9990210,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc. Common Stock",
+    "market_cap": 1096638961159.17,
+    "current_price": 300.71,
+    "previous_close": 298.46,
+    "percentage_change": 0.7538698653085841,
+    "volume": 145085665,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "BRK.B",
+    "name": "BERKSHIRE HATHAWAY Class B",
+    "market_cap": 1064601543053.88,
+    "current_price": 489.61,
+    "previous_close": 485.78,
+    "percentage_change": 0.7884227428053937,
+    "volume": 4776026,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BRK.A",
+    "name": "Berkshire Hathaway Inc.",
+    "market_cap": 1049902790000,
+    "current_price": 733150,
+    "previous_close": 727545.5312,
+    "percentage_change": 0.7703255067426674,
+    "volume": 454,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart Inc.",
+    "market_cap": 782080980072,
+    "current_price": 98.24,
+    "previous_close": 97.6,
+    "percentage_change": 0.6557377049180334,
+    "volume": 15635847,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase \u0026 Co.",
+    "market_cap": 781642377709.62,
+    "current_price": 290.41,
+    "previous_close": 290.89,
+    "percentage_change": -0.16501082883562906,
+    "volume": 9338260,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly \u0026 Co.",
+    "market_cap": 698510155330.0801,
+    "current_price": 775.9,
+    "previous_close": 779.53,
+    "percentage_change": -0.46566520852308385,
+    "volume": 2733978,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "V",
+    "name": "VISA Inc.",
+    "market_cap": 686909304862.92,
+    "current_price": 355.47,
+    "previous_close": 353.82,
+    "percentage_change": 0.46633881634730484,
+    "volume": 6653409,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle Corp",
+    "market_cap": 604657479910,
+    "current_price": 218.96,
+    "previous_close": 219.3,
+    "percentage_change": -0.155038759689924,
+    "volume": 16962196,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "NetFlix Inc",
+    "market_cap": 544352462053.25995,
+    "current_price": 1293.6,
+    "previous_close": 1338.23,
+    "percentage_change": -3.3350022044043333,
+    "volume": 4993567,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard Incorporated",
+    "market_cap": 506283037186.79,
+    "current_price": 564.61,
+    "previous_close": 559.32,
+    "percentage_change": 0.9457913180290286,
+    "volume": 3827165,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "market_cap": 466906269867.14,
+    "current_price": 109.24,
+    "previous_close": 108.13,
+    "percentage_change": 1.0265421252196425,
+    "volume": 15536896,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco Wholesale Corp",
+    "market_cap": 437507884422.44,
+    "current_price": 985.96,
+    "previous_close": 990,
+    "percentage_change": -0.40808080808080444,
+    "volume": 2200576,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter \u0026 Gamble Company",
+    "market_cap": 375970760572.24005,
+    "current_price": 161.22,
+    "previous_close": 159.88,
+    "percentage_change": 0.8381285964473376,
+    "volume": 10664891,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson \u0026 Johnson",
+    "market_cap": 366396838926.12,
+    "current_price": 155.92,
+    "previous_close": 153,
+    "percentage_change": 1.9084967320261357,
+    "volume": 10896676,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HD",
+    "name": "Home Depot, Inc.",
+    "market_cap": 358591944353.7,
+    "current_price": 373.16,
+    "previous_close": 364.34,
+    "percentage_change": 2.420815721578759,
+    "volume": 5152607,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America Corporation",
+    "market_cap": 351437338965.98,
+    "current_price": 48.15,
+    "previous_close": 47.02,
+    "percentage_change": 2.403232666950224,
+    "volume": 48540877,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SAP",
+    "name": "SAP SE",
+    "market_cap": 346570397073.88,
+    "current_price": 300.68,
+    "previous_close": 305.43,
+    "percentage_change": -1.5551844939920767,
+    "volume": 961899,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies Inc. Class A Common Stock",
+    "market_cap": 338010252622.31,
+    "current_price": 130.68,
+    "previous_close": 135.27,
+    "percentage_change": -3.3932135728542936,
+    "volume": 91479688,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ABBV",
+    "name": "ABBVIE INC.",
+    "market_cap": 327756081659.85004,
+    "current_price": 189.99,
+    "previous_close": 185.01,
+    "percentage_change": 2.691746392086924,
+    "volume": 5937604,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML Holding NV",
+    "market_cap": 320552555505.2,
+    "current_price": 790.47,
+    "previous_close": 788.05,
+    "percentage_change": 0.3070871137618264,
+    "volume": 1066115,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "NVO",
+    "name": "Novo-Nordisk A/S",
+    "market_cap": 314280006972.14,
+    "current_price": 69.82,
+    "previous_close": 68.41,
+    "percentage_change": 2.0611021780441408,
+    "volume": 6851729,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola Company",
+    "market_cap": 302202567674.98,
+    "current_price": 71.67,
+    "previous_close": 70.99,
+    "percentage_change": 0.9578813917453259,
+    "volume": 21729276,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PM",
+    "name": "Philip Morris International Inc.",
+    "market_cap": 287161854907.18,
+    "current_price": 177.53,
+    "previous_close": 182.74,
+    "percentage_change": -2.851045200831787,
+    "volume": 5176668,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BABA",
+    "name": "Alibaba Group Holding Limited American Depositary Shares, each represents eight Ordinary Shares",
+    "market_cap": 279114077758.29004,
+    "current_price": 113.97,
+    "previous_close": 112.95,
+    "percentage_change": 0.9030544488711785,
+    "volume": 9243164,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UNITEDHEALTH GROUP INCORPORATED (Delaware)",
+    "market_cap": 277240261578.42,
+    "current_price": 326.14,
+    "previous_close": 311.97,
+    "percentage_change": 4.542103407378901,
+    "volume": 17865491,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IBM",
+    "name": "International Business Machines Corporation",
+    "market_cap": 273047419769.25003,
+    "current_price": 291.2,
+    "previous_close": 294.55,
+    "percentage_change": -1.1373281276523588,
+    "volume": 3272797,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems, Inc. Common Stock (DE)",
+    "market_cap": 268844276440.2,
+    "current_price": 69.1,
+    "previous_close": 69.38,
+    "percentage_change": -0.4035745171519186,
+    "volume": 21939473,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "market_cap": 265263677446.25,
+    "current_price": 249.02,
+    "previous_close": 255.75,
+    "percentage_change": -2.6314760508308854,
+    "volume": 7178305,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "market_cap": 262174275437.2,
+    "current_price": 241.51,
+    "previous_close": 238.41,
+    "percentage_change": 1.3002810284803465,
+    "volume": 4536552,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce, Inc.",
+    "market_cap": 259238520000,
+    "current_price": 271.91,
+    "previous_close": 272.08,
+    "percentage_change": -0.06248162305202848,
+    "volume": 6256810,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WFC",
+    "name": "Wells Fargo \u0026 Co.",
+    "market_cap": 254184190857.06,
+    "current_price": 81.49,
+    "previous_close": 80.05,
+    "percentage_change": 1.7988757026858186,
+    "volume": 20967092,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron Corporation",
+    "market_cap": 248628600000.00003,
+    "current_price": 145.57,
+    "previous_close": 143.34,
+    "percentage_change": 1.5557415934142527,
+    "volume": 8508150,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ABT",
+    "name": "Abbott Laboratories",
+    "market_cap": 240236719195.2,
+    "current_price": 136.26,
+    "previous_close": 135.54,
+    "percentage_change": 0.5312084993359886,
+    "volume": 5337856,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NVS",
+    "name": "Novartis AG",
+    "market_cap": 233060531264,
+    "current_price": 123.1,
+    "previous_close": 122.1,
+    "percentage_change": 0.819000819000819,
+    "volume": 1430446,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "market_cap": 224450982713.85,
+    "current_price": 136.11,
+    "previous_close": 138.77,
+    "percentage_change": -1.9168408157382695,
+    "volume": 55257237,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TM",
+    "name": "Toyota Motor Corporation American Depositary Shares (Each representing ten Ordinary Shares)",
+    "market_cap": 223615117216.1,
+    "current_price": 171.54,
+    "previous_close": 170.8,
+    "percentage_change": 0.4332552693208317,
+    "volume": 857098,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AZN",
+    "name": "AstraZeneca PLC",
+    "market_cap": 218704419669.6,
+    "current_price": 71.46,
+    "previous_close": 70.11,
+    "percentage_change": 1.925545571245178,
+    "volume": 6731078,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "market_cap": 218026973572.2,
+    "current_price": 141.07,
+    "previous_close": 140.55,
+    "percentage_change": 0.3699750978299408,
+    "volume": 6166696,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LIN",
+    "name": "Linde plc Ordinary Share",
+    "market_cap": 216627399713.4,
+    "current_price": 476.75,
+    "previous_close": 469.79,
+    "percentage_change": 1.4815130164541561,
+    "volume": 1856437,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AXP",
+    "name": "American Express Company",
+    "market_cap": 216047595730.6,
+    "current_price": 322.53,
+    "previous_close": 316.93,
+    "percentage_change": 1.7669516928028164,
+    "volume": 3836382,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DIS",
+    "name": "The Walt Disney Company",
+    "market_cap": 213302599800.15002,
+    "current_price": 123.49,
+    "previous_close": 123.5,
+    "percentage_change": -0.008097165991906977,
+    "volume": 9815654,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HSBC",
+    "name": "HSBC Holdings PLC",
+    "market_cap": 212138803908.24,
+    "current_price": 60.27,
+    "previous_close": 60.14,
+    "percentage_change": 0.21616228799468334,
+    "volume": 1151717,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "INTU",
+    "name": "Intuit Inc",
+    "market_cap": 211729141410,
+    "current_price": 779.61,
+    "previous_close": 788.7,
+    "percentage_change": -1.1525294788893155,
+    "volume": 1923874,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "NOW",
+    "name": "SERVICENOW, INC.",
+    "market_cap": 206389591967.52002,
+    "current_price": 1011.89,
+    "previous_close": 1027.26,
+    "percentage_change": -1.496213227420517,
+    "volume": 1244261,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SHEL",
+    "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+    "market_cap": 204147909600.32,
+    "current_price": 71.19,
+    "previous_close": 70.68,
+    "percentage_change": 0.7215619694397154,
+    "volume": 3643017,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "T",
+    "name": "AT\u0026T Inc.",
+    "market_cap": 203491629593.84,
+    "current_price": 28.88,
+    "previous_close": 28.99,
+    "percentage_change": -0.37944118661607257,
+    "volume": 25976356,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs Group Inc.",
+    "market_cap": 203162579260.08002,
+    "current_price": 706.46,
+    "previous_close": 708,
+    "percentage_change": -0.21751412429378017,
+    "volume": 3300971,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck \u0026 Co., Inc.",
+    "market_cap": 201686030240.96,
+    "current_price": 81.81,
+    "previous_close": 78.96,
+    "percentage_change": 3.6094224924012273,
+    "volume": 21800790,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HDB",
+    "name": "HDFC Bank Limited",
+    "market_cap": 191953011002.59998,
+    "current_price": 76.71,
+    "previous_close": 76.76,
+    "percentage_change": -0.06513809275665888,
+    "volume": 1641187,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UBER",
+    "name": "Uber Technologies, Inc.",
+    "market_cap": 191655556181.7,
+    "current_price": 92.13,
+    "previous_close": 92.85,
+    "percentage_change": -0.775444264943456,
+    "volume": 17124009,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RTX",
+    "name": "RTX Corporation",
+    "market_cap": 189505042274.5,
+    "current_price": 144.19,
+    "previous_close": 145.65,
+    "percentage_change": -1.0024030209406165,
+    "volume": 4819469,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ACN",
+    "name": "Accenture PLC",
+    "market_cap": 187304263041.84003,
+    "current_price": 302.62,
+    "previous_close": 298.12,
+    "percentage_change": 1.5094592781430296,
+    "volume": 3565707,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "market_cap": 186972638578.99,
+    "current_price": 210.45,
+    "previous_close": 207,
+    "percentage_change": 1.6666666666666612,
+    "volume": 5856189,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical Inc.",
+    "market_cap": 186961714355.65,
+    "current_price": 537.99,
+    "previous_close": 542.58,
+    "percentage_change": -0.8459581997124906,
+    "volume": 1649400,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "RY",
+    "name": "Royal Bank of Canada",
+    "market_cap": 180970540345.59998,
+    "current_price": 132.26,
+    "previous_close": 131.36,
+    "percentage_change": 0.6851400730815904,
+    "volume": 517633,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PEP",
+    "name": "PepsiCo, Inc.",
+    "market_cap": 179679973717.00003,
+    "current_price": 135.26,
+    "previous_close": 132.59,
+    "percentage_change": 2.0137265253789782,
+    "volume": 12846685,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc. Common Stock",
+    "market_cap": 178495143048.30002,
+    "current_price": 5730.73,
+    "previous_close": 5740.8,
+    "percentage_change": -0.1754110925306685,
+    "volume": 226115,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "VZ",
+    "name": "Verizon Communications",
+    "market_cap": 177588656977.68,
+    "current_price": 43.68,
+    "previous_close": 43.42,
+    "percentage_change": 0.5988023952095762,
+    "volume": 19233185,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar Inc.",
+    "market_cap": 175436893093.56,
+    "current_price": 390.92,
+    "previous_close": 386.59,
+    "percentage_change": 1.120049665019799,
+    "volume": 2393985,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "QCOM",
+    "name": "Qualcomm Inc",
+    "market_cap": 170969580000,
+    "current_price": 159.4,
+    "previous_close": 158.22,
+    "percentage_change": 0.7457969915307843,
+    "volume": 8942314,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ARM",
+    "name": "Arm Holdings plc American Depositary Shares",
+    "market_cap": 165679482083.59,
+    "current_price": 156.33,
+    "previous_close": 160,
+    "percentage_change": -2.293749999999992,
+    "volume": 6369768,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SCHW",
+    "name": "The Charles Schwab Corporation",
+    "market_cap": 162291794609.56,
+    "current_price": 91.17,
+    "previous_close": 90.92,
+    "percentage_change": 0.27496700395952484,
+    "volume": 8199589,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "market_cap": 162188628000,
+    "current_price": 392.1,
+    "previous_close": 385.1,
+    "percentage_change": 1.8177096857958972,
+    "volume": 4516381,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SPGI",
+    "name": "S\u0026P Global Inc.",
+    "market_cap": 160385896071.45,
+    "current_price": 529.32,
+    "previous_close": 525.17,
+    "percentage_change": 0.7902203096140471,
+    "volume": 1193848,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MUFG",
+    "name": "Mitsubishi UFJ Financial Group, Inc.",
+    "market_cap": 158061766624.47,
+    "current_price": 13.73,
+    "previous_close": 13.74,
+    "percentage_change": -0.07278020378456904,
+    "volume": 7854821,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PGR",
+    "name": "Progressive Corporation",
+    "market_cap": 155941351274.43,
+    "current_price": 264.3,
+    "previous_close": 266.86,
+    "percentage_change": -0.9593045042344308,
+    "volume": 3042325,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BLK",
+    "name": "Blackrock, Inc.",
+    "market_cap": 155696164119.57,
+    "current_price": 1054.27,
+    "previous_close": 1046.58,
+    "percentage_change": 0.7347742169733852,
+    "volume": 472882,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BSX",
+    "name": "Boston Scientific Corp.",
+    "market_cap": 154039953441.4,
+    "current_price": 104.78,
+    "previous_close": 107.36,
+    "percentage_change": -2.4031296572280163,
+    "volume": 8531013,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific, Inc.",
+    "market_cap": 152647213195.44,
+    "current_price": 421.47,
+    "previous_close": 406.29,
+    "percentage_change": 3.736247507937682,
+    "volume": 2603094,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PDD",
+    "name": "PDD Holdings Inc. American Depositary Shares",
+    "market_cap": 152129314867.91998,
+    "current_price": 105.49,
+    "previous_close": 104.45,
+    "percentage_change": 0.9956917185256027,
+    "volume": 3637701,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "C",
+    "name": "Citigroup Inc.",
+    "market_cap": 151547910795.2,
+    "current_price": 86.27,
+    "previous_close": 85,
+    "percentage_change": 1.4941176470588189,
+    "volume": 17088874,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BA",
+    "name": "Boeing Company",
+    "market_cap": 151509859945.56,
+    "current_price": 209.79,
+    "previous_close": 209.5,
+    "percentage_change": 0.13842482100238285,
+    "volume": 5978892,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "market_cap": 150982977987.9,
+    "current_price": 722.35,
+    "previous_close": 766.93,
+    "percentage_change": -5.812786043054768,
+    "volume": 2725725,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SONY",
+    "name": "Sony Group Corporation American Depositary Shares (Each Representing One Share of Dollar Validated Common Stock)",
+    "market_cap": 150274319718.59998,
+    "current_price": 25.47,
+    "previous_close": 25.4,
+    "percentage_change": 0.2755905511811035,
+    "volume": 8264251,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UL",
+    "name": "Unilever plc",
+    "market_cap": 150269509045.62,
+    "current_price": 61.48,
+    "previous_close": 61.18,
+    "percentage_change": 0.49035632559659553,
+    "volume": 2072643,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMGN",
+    "name": "Amgen Inc",
+    "market_cap": 149208070683.82,
+    "current_price": 290.52,
+    "previous_close": 280.01,
+    "percentage_change": 3.7534373772365246,
+    "volume": 3502984,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SHOP",
+    "name": "Shopify Inc. Class A subordinate voting shares",
+    "market_cap": 148446319259.82,
+    "current_price": 112.67,
+    "previous_close": 114.31,
+    "percentage_change": -1.4346951272854525,
+    "volume": 5537867,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SYK",
+    "name": "Stryker Corporation",
+    "market_cap": 147691433727.9,
+    "current_price": 396.74,
+    "previous_close": 394.78,
+    "percentage_change": 0.4964790516236984,
+    "volume": 1200604,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NEE",
+    "name": "Nextra Energy, Inc.",
+    "market_cap": 146986261039.80002,
+    "current_price": 73.06,
+    "previous_close": 69.57,
+    "percentage_change": 5.0165301135547065,
+    "volume": 23841121,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials Inc",
+    "market_cap": 144594128739.06,
+    "current_price": 183.76,
+    "previous_close": 182.44,
+    "percentage_change": 0.7235255426441533,
+    "volume": 6572259,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell International, Inc.",
+    "market_cap": 144475515237.4,
+    "current_price": 238.77,
+    "previous_close": 233.58,
+    "percentage_change": 2.2219368096583603,
+    "volume": 3921616,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology, Inc.",
+    "market_cap": 143147291668.91,
+    "current_price": 120.89,
+    "previous_close": 122.345,
+    "percentage_change": -1.1892598798479694,
+    "volume": 24825833,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "DHR",
+    "name": "Danaher Corporation",
+    "market_cap": 141323274727.18,
+    "current_price": 201.1,
+    "previous_close": 196.99,
+    "percentage_change": 2.0864003248895804,
+    "volume": 3976362,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PFE",
+    "name": "Pfizer Inc.",
+    "market_cap": 138211237419.97,
+    "current_price": 25.04,
+    "previous_close": 24.275,
+    "percentage_change": 3.1513903192584993,
+    "volume": 59259857,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DE",
+    "name": "Deere \u0026 Company",
+    "market_cap": 137238901850.7,
+    "current_price": 508.36,
+    "previous_close": 504.68,
+    "percentage_change": 0.7291749227233112,
+    "volume": 1375269,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TJX",
+    "name": "TJX Companies, Inc. (The)",
+    "market_cap": 136640601627.52,
+    "current_price": 125.16,
+    "previous_close": 123.67,
+    "percentage_change": 1.2048192771084296,
+    "volume": 5126182,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UNP",
+    "name": "Union Pacific Corp.",
+    "market_cap": 136170666275.09999,
+    "current_price": 235.57,
+    "previous_close": 229.62,
+    "percentage_change": 2.5912376970647104,
+    "volume": 2687505,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BUD",
+    "name": "Anheuser-Busch INBEV SA/NV",
+    "market_cap": 136078118535.65999,
+    "current_price": 69.25,
+    "previous_close": 69.24,
+    "percentage_change": 0.014442518775281799,
+    "volume": 2152631,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TTE",
+    "name": "TotalEnergies SE",
+    "market_cap": 134548754395.44,
+    "current_price": 61.91,
+    "previous_close": 61.43,
+    "percentage_change": 0.781377177274942,
+    "volume": 921052,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks, Inc. Common Stock",
+    "market_cap": 134486892000,
+    "current_price": 197.58,
+    "previous_close": 203.97,
+    "percentage_change": -3.1328136490660325,
+    "volume": 6840597,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton Corporation, plc Ordinary Shares",
+    "market_cap": 133961555000.00002,
+    "current_price": 355.04,
+    "previous_close": 355.78,
+    "percentage_change": -0.2079937039743528,
+    "volume": 2407924,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GILD",
+    "name": "Gilead Sciences Inc",
+    "market_cap": 133349201771.2,
+    "current_price": 111.73,
+    "previous_close": 111.5,
+    "percentage_change": 0.2062780269058332,
+    "volume": 7677243,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "COF",
+    "name": "Capital One Financial",
+    "market_cap": 131995030930.84001,
+    "current_price": 215.18,
+    "previous_close": 212.14,
+    "percentage_change": 1.4330159328745267,
+    "volume": 4923797,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CMCSA",
+    "name": "Comcast Corp",
+    "market_cap": 131463715269.67,
+    "current_price": 36.33,
+    "previous_close": 35.59,
+    "percentage_change": 2.079235740376496,
+    "volume": 22857494,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MELI",
+    "name": "Mercado Libre, Inc",
+    "market_cap": 128796681187.5,
+    "current_price": 2501.4,
+    "previous_close": 2645.22,
+    "percentage_change": -5.436976886610554,
+    "volume": 573489,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ADP",
+    "name": "Automatic Data Processing",
+    "market_cap": 126404344038.59999,
+    "current_price": 310.13,
+    "previous_close": 308.18,
+    "percentage_change": 0.6327470958530691,
+    "volume": 1496603,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TD",
+    "name": "Toronto Dominion Bank",
+    "market_cap": 124018416000,
+    "current_price": 74.11,
+    "previous_close": 73.38,
+    "percentage_change": 0.9948214772417607,
+    "volume": 1311429,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LOW",
+    "name": "Lowe's Companies Inc.",
+    "market_cap": 123285076226.81999,
+    "current_price": 228.64,
+    "previous_close": 219.52,
+    "percentage_change": 4.154518950437307,
+    "volume": 3974824,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SAN",
+    "name": "Banco Santander S.A.",
+    "market_cap": 122943465738.26999,
+    "current_price": 8.27,
+    "previous_close": 8.24,
+    "percentage_change": 0.36407766990290485,
+    "volume": 6280540,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SAN",
+    "name": "Banco Santander S.A.",
+    "market_cap": 122943465738.26999,
+    "current_price": 8.27,
+    "previous_close": 8.24,
+    "percentage_change": 0.36407766990290485,
+    "volume": 6280540,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research Corp",
+    "market_cap": 122322054340,
+    "current_price": 96.81,
+    "previous_close": 96.59,
+    "percentage_change": 0.2277668495703477,
+    "volume": 9760336,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings, Inc. Class A Common Stock",
+    "market_cap": 120980078696.12,
+    "current_price": 492.07,
+    "previous_close": 509.37,
+    "percentage_change": -3.3963523568329523,
+    "volume": 4089054,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "market_cap": 119274858302.06999,
+    "current_price": 98.91,
+    "previous_close": 102.31,
+    "percentage_change": -3.323233310526836,
+    "volume": 8685478,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BHP",
+    "name": "BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)",
+    "market_cap": 118596546713.94,
+    "current_price": 48.67,
+    "previous_close": 48.13,
+    "percentage_change": 1.1219613546644487,
+    "volume": 2492356,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "APP",
+    "name": "Applovin Corporation Class A Common Stock",
+    "market_cap": 118259439832.8,
+    "current_price": 336.69,
+    "previous_close": 347,
+    "percentage_change": -2.9711815561959662,
+    "volume": 5379761,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SNY",
+    "name": "Sanofi American Depositary Shares (Each representing one-half of one ordinary share)",
+    "market_cap": 117905930195.04001,
+    "current_price": 49.05,
+    "previous_close": 48.19,
+    "percentage_change": 1.7846026146503415,
+    "volume": 1602908,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "IBN",
+    "name": "ICICI Bank Limited",
+    "market_cap": 117379624972.4,
+    "current_price": 33.62,
+    "previous_close": 33.54,
+    "percentage_change": 0.2385211687537218,
+    "volume": 3931349,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ADI",
+    "name": "Analog Devices, Inc.",
+    "market_cap": 116608401096.08,
+    "current_price": 240.64,
+    "previous_close": 236.54,
+    "percentage_change": 1.7333220596939183,
+    "volume": 3500869,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "APH",
+    "name": "Amphenol Corporation",
+    "market_cap": 115879591959.8,
+    "current_price": 97.39,
+    "previous_close": 98.6,
+    "percentage_change": -1.227180527383361,
+    "volume": 6782519,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CB",
+    "name": "Chubb Limited",
+    "market_cap": 114926650528.29999,
+    "current_price": 289.59,
+    "previous_close": 289.19,
+    "percentage_change": 0.1383173692036299,
+    "volume": 1884462,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc",
+    "market_cap": 114485321908.34,
+    "current_price": 452.16,
+    "previous_close": 445.5,
+    "percentage_change": 1.4949494949495006,
+    "volume": 1146672,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "market_cap": 112846832224.14,
+    "current_price": 91.99,
+    "previous_close": 89.855,
+    "percentage_change": 2.3760503032663634,
+    "volume": 11895193,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MDT",
+    "name": "Medtronic plc",
+    "market_cap": 110291265634.23999,
+    "current_price": 88.75,
+    "previous_close": 86.83,
+    "percentage_change": 2.2112173212023514,
+    "volume": 10089402,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BX",
+    "name": "Blackstone Inc.",
+    "market_cap": 110163313121.35,
+    "current_price": 152.77,
+    "previous_close": 148.94,
+    "percentage_change": 2.5715053041493303,
+    "volume": 4544294,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MMC",
+    "name": "Marsh \u0026 McLennan Companies, Inc.",
+    "market_cap": 108237507039.2,
+    "current_price": 217.83,
+    "previous_close": 218.62,
+    "percentage_change": -0.36135760680632695,
+    "volume": 2333238,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LMT",
+    "name": "Lockheed Martin Corp.",
+    "market_cap": 107822997570.59999,
+    "current_price": 465.94,
+    "previous_close": 463,
+    "percentage_change": 0.6349892008639304,
+    "volume": 1242775,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BTI",
+    "name": "British American Tobacco p.l.c. American Depositary Shares, American Depositary Shares, each representing one Ordinary Share",
+    "market_cap": 106145616142.5,
+    "current_price": 46.69,
+    "previous_close": 47.2,
+    "percentage_change": -1.0805084745762819,
+    "volume": 5836295,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MSTR",
+    "name": "MicroStrategy Inc",
+    "market_cap": 105317555148.81999,
+    "current_price": 373.3,
+    "previous_close": 395.7,
+    "percentage_change": -5.660854182461454,
+    "volume": 17289648,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AMT",
+    "name": "American Tower Corporation",
+    "market_cap": 104820834437.95,
+    "current_price": 224.47,
+    "previous_close": 220.9,
+    "percentage_change": 1.6161158895427765,
+    "volume": 2567656,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SBUX",
+    "name": "Starbucks Corp",
+    "market_cap": 103980600000,
+    "current_price": 94.92,
+    "previous_close": 91.54,
+    "percentage_change": 3.6923749180685985,
+    "volume": 9828404,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ICE",
+    "name": "Intercontinental Exchange  Inc.",
+    "market_cap": 103740311110.34999,
+    "current_price": 181.86,
+    "previous_close": 183.3,
+    "percentage_change": -0.7855973813420609,
+    "volume": 2223840,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UBS",
+    "name": "UBS Group AG",
+    "market_cap": 102168742509.9,
+    "current_price": 33.77,
+    "previous_close": 33.48,
+    "percentage_change": 0.8661887694145946,
+    "volume": 2058364,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MO",
+    "name": "Altria Group, Inc.",
+    "market_cap": 100915508416.37999,
+    "current_price": 58.14,
+    "previous_close": 58.92,
+    "percentage_change": -1.3238289205702667,
+    "volume": 7656848,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WELL",
+    "name": "Welltower Inc.",
+    "market_cap": 100872030443.75,
+    "current_price": 151.6,
+    "previous_close": 154.16,
+    "percentage_change": -1.6606123508043606,
+    "volume": 3232665,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CEG",
+    "name": "Constellation Energy Corporation Common Stock",
+    "market_cap": 100500413864.20001,
+    "current_price": 307.92,
+    "previous_close": 320.725,
+    "percentage_change": -3.9925169537766014,
+    "volume": 3553045,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PLD",
+    "name": "PROLOGIS, INC.",
+    "market_cap": 100336638380,
+    "current_price": 106.58,
+    "previous_close": 104.87,
+    "percentage_change": 1.6305902546009283,
+    "volume": 6626322,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SO",
+    "name": "The Southern Company",
+    "market_cap": 99996599939.6,
+    "current_price": 92.3,
+    "previous_close": 92,
+    "percentage_change": 0.326086956521736,
+    "volume": 7399409,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DASH",
+    "name": "DoorDash, Inc. Class A Common Stock",
+    "market_cap": 98596783005,
+    "current_price": 238.01,
+    "previous_close": 247.62,
+    "percentage_change": -3.8809466117438065,
+    "volume": 5776945,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel Corp",
+    "market_cap": 98363100000,
+    "current_price": 22.85,
+    "previous_close": 22.325,
+    "percentage_change": 2.3516237402015774,
+    "volume": 79094907,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ENB",
+    "name": "Enbridge, Inc",
+    "market_cap": 98188834501.59999,
+    "current_price": 44.92,
+    "previous_close": 45.07,
+    "percentage_change": -0.3328156201464357,
+    "volume": 3517452,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CME",
+    "name": "CME Group Inc.",
+    "market_cap": 97794291908.09999,
+    "current_price": 275.42,
+    "previous_close": 277.64,
+    "percentage_change": -0.7995965999135465,
+    "volume": 2010485,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "RELX",
+    "name": "RELX PLC",
+    "market_cap": 97633980037.8,
+    "current_price": 53.91,
+    "previous_close": 53.98,
+    "percentage_change": -0.12967765839199757,
+    "volume": 907227,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SMFG",
+    "name": "Sumitomo Mitsui Financial Group, Inc American Depositary Shares (each representing 3/5th of a share of common stock)",
+    "market_cap": 96205248096.72,
+    "current_price": 15.1,
+    "previous_close": 15.16,
+    "percentage_change": -0.39577836411609824,
+    "volume": 5582575,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FI",
+    "name": "Fiserv, Inc.",
+    "market_cap": 95728544051.84,
+    "current_price": 172.68,
+    "previous_close": 171.39,
+    "percentage_change": 0.752669350603898,
+    "volume": 3152022,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BMY",
+    "name": "Bristol-Myers Squibb Co.",
+    "market_cap": 95709850494.3,
+    "current_price": 47.51,
+    "previous_close": 46.255,
+    "percentage_change": 2.713220192411621,
+    "volume": 21112406,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TT",
+    "name": "Trane Technologies plc",
+    "market_cap": 95679185363.14,
+    "current_price": 434.17,
+    "previous_close": 434.205,
+    "percentage_change": -0.008060708651436111,
+    "volume": 1167932,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WM",
+    "name": "Waste Management, Inc.",
+    "market_cap": 94219803500.64,
+    "current_price": 228.8,
+    "previous_close": 228.52,
+    "percentage_change": 0.12252756870295865,
+    "volume": 1573810,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BN",
+    "name": "Brookfield Corporation",
+    "market_cap": 94051359859.8,
+    "current_price": 61.98,
+    "previous_close": 61.61,
+    "percentage_change": 0.6005518584645309,
+    "volume": 1102184,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SE",
+    "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+    "market_cap": 93710835352.86,
+    "current_price": 150.5,
+    "previous_close": 159,
+    "percentage_change": -5.345911949685535,
+    "volume": 6451753,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RIO",
+    "name": "Rio Tinto plc",
+    "market_cap": 92914498873.76999,
+    "current_price": 58.3,
+    "previous_close": 57.71,
+    "percentage_change": 1.022353145035516,
+    "volume": 5377980,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HCA",
+    "name": "HCA Healthcare, Inc.",
+    "market_cap": 91182319578,
+    "current_price": 389.53,
+    "previous_close": 384.09,
+    "percentage_change": 1.4163347132182555,
+    "volume": 1299884,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DUK",
+    "name": "Duke Energy Corporation",
+    "market_cap": 90900218663.65001,
+    "current_price": 118.87,
+    "previous_close": 118.68,
+    "percentage_change": 0.16009437141893976,
+    "volume": 3498688,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NKE",
+    "name": "Nike, Inc.",
+    "market_cap": 90655335711.54001,
+    "current_price": 73.41,
+    "previous_close": 71.99,
+    "percentage_change": 1.972496180025006,
+    "volume": 27512934,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CTAS",
+    "name": "Cintas Corp",
+    "market_cap": 90125250141.59999,
+    "current_price": 224.31,
+    "previous_close": 224.3,
+    "percentage_change": 0.004458314757017791,
+    "volume": 1282352,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "BAM",
+    "name": "Brookfield Asset Management Ltd.",
+    "market_cap": 89795996924.16,
+    "current_price": 54.94,
+    "previous_close": 54.92,
+    "percentage_change": 0.036416605972316135,
+    "volume": 1430180,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TRI",
+    "name": "Thomson Reuters Corporation Common Shares",
+    "market_cap": 88829841217.31999,
+    "current_price": 201.67,
+    "previous_close": 200.44,
+    "percentage_change": 0.61364997006585,
+    "volume": 519378,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "EQIX",
+    "name": "Equinix, Inc. Common Stock REIT",
+    "market_cap": 88672915341.5,
+    "current_price": 795.38,
+    "previous_close": 797.25,
+    "percentage_change": -0.23455628723737906,
+    "volume": 971302,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MDLZ",
+    "name": "Mondelez International, Inc. Class A",
+    "market_cap": 88604215974.39001,
+    "current_price": 68.96,
+    "previous_close": 67.55,
+    "percentage_change": 2.087342709104362,
+    "volume": 12038672,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "BBVA",
+    "name": "Banco Bilbao Vizcaya Argentaria, S.A.",
+    "market_cap": 88191397089.88,
+    "current_price": 15.22,
+    "previous_close": 15.17,
+    "percentage_change": 0.329597890573505,
+    "volume": 1387240,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "COIN",
+    "name": "Coinbase Global, Inc. Class A Common Stock",
+    "market_cap": 87827365686.48,
+    "current_price": 335.33,
+    "previous_close": 339.98,
+    "percentage_change": -1.3677275133831501,
+    "volume": 13132139,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SHW",
+    "name": "The Sherwin-Williams Company",
+    "market_cap": 86630115191.58,
+    "current_price": 355.3,
+    "previous_close": 342.32,
+    "percentage_change": 3.791773778920314,
+    "volume": 2310257,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PH",
+    "name": "Parker-Hannifin Corporation",
+    "market_cap": 86282097201,
+    "current_price": 703.28,
+    "previous_close": 696.3,
+    "percentage_change": 1.0024414763751284,
+    "volume": 720195,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CVS",
+    "name": "CVS HEALTH CORPORATION",
+    "market_cap": 85490013011.81999,
+    "current_price": 69.58,
+    "previous_close": 68.77,
+    "percentage_change": 1.177839174058459,
+    "volume": 5673386,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UPS",
+    "name": "United Parcel Service, Inc. Class B",
+    "market_cap": 85204795239.72,
+    "current_price": 104.47,
+    "previous_close": 100.745,
+    "percentage_change": 3.69745396793885,
+    "volume": 6819330,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ELV",
+    "name": "Elevance Health, Inc.",
+    "market_cap": 85046302132,
+    "current_price": 395.76,
+    "previous_close": 389.12,
+    "percentage_change": 1.706414473684207,
+    "volume": 1703289,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NTES",
+    "name": "NetEase, inc.",
+    "market_cap": 84880229970.20001,
+    "current_price": 134.78,
+    "previous_close": 134.58,
+    "percentage_change": 0.14861049190071973,
+    "volume": 610643,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CI",
+    "name": "The Cigna Group",
+    "market_cap": 84638789007.51,
+    "current_price": 334.39,
+    "previous_close": 331.92,
+    "percentage_change": 0.7441552181248404,
+    "volume": 2684077,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RACE",
+    "name": "Ferrari N.V.",
+    "market_cap": 84186746768.02,
+    "current_price": 489.37,
+    "previous_close": 487.53,
+    "percentage_change": 0.3774126720407015,
+    "volume": 354179,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AJG",
+    "name": "Arthur J. Gallagher \u0026 Co.",
+    "market_cap": 83468156940,
+    "current_price": 319.49,
+    "previous_close": 320.12,
+    "percentage_change": -0.19680119955016728,
+    "volume": 1567367,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave, Inc. Class A Common Stock",
+    "market_cap": 82853652698.46,
+    "current_price": 155.94,
+    "previous_close": 162.78,
+    "percentage_change": -4.2019904165130875,
+    "volume": 10913502,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TDG",
+    "name": "TransDigm Group Incorporated",
+    "market_cap": 82731307850.75,
+    "current_price": 1512.81,
+    "previous_close": 1515.1,
+    "percentage_change": -0.15114513893472137,
+    "volume": 285555,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies Inc.",
+    "market_cap": 81862458069.66,
+    "current_price": 121.73,
+    "previous_close": 122.06,
+    "percentage_change": -0.2703588399147946,
+    "volume": 4105007,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ABNB",
+    "name": "Airbnb, Inc. Class A Common Stock",
+    "market_cap": 81564665573.25,
+    "current_price": 135.41,
+    "previous_close": 132.225,
+    "percentage_change": 2.4087729249385537,
+    "volume": 3919565,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems",
+    "market_cap": 81038865600,
+    "current_price": 309.46,
+    "previous_close": 306.35,
+    "percentage_change": 1.0151787171535684,
+    "volume": 1332210,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MMM",
+    "name": "3M Company",
+    "market_cap": 80657240722.94,
+    "current_price": 153.81,
+    "previous_close": 152,
+    "percentage_change": 1.1907894736842122,
+    "volume": 3781853,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "APO",
+    "name": "Apollo Global Management, Inc.",
+    "market_cap": 79957758278.94,
+    "current_price": 141.63,
+    "previous_close": 141.02,
+    "percentage_change": 0.4325627570557262,
+    "volume": 2398472,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FTNT",
+    "name": "Fortinet, Inc.",
+    "market_cap": 79924786335.52,
+    "current_price": 102.43,
+    "previous_close": 105.355,
+    "percentage_change": -2.7763276541217756,
+    "volume": 6138018,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PBR",
+    "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
+    "market_cap": 79072375494.87,
+    "current_price": 12.59,
+    "previous_close": 12.565,
+    "percentage_change": 0.19896538002387867,
+    "volume": 15712187,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BP",
+    "name": "BP p.l.c.",
+    "market_cap": 78681529480.64,
+    "current_price": 30.5,
+    "previous_close": 30.13,
+    "percentage_change": 1.2280119482243645,
+    "volume": 8426533,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RSG",
+    "name": "Republic Services Inc.",
+    "market_cap": 78358626009.75,
+    "current_price": 244.67,
+    "previous_close": 246.28,
+    "percentage_change": -0.6537274646743599,
+    "volume": 1131917,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GSK",
+    "name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+    "market_cap": 78251215475.08,
+    "current_price": 38.95,
+    "previous_close": 38.48,
+    "percentage_change": 1.221413721413737,
+    "volume": 6553798,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SCCO",
+    "name": "Southern Copper Corporation",
+    "market_cap": 78058955126.76,
+    "current_price": 102.1,
+    "previous_close": 101.45,
+    "percentage_change": 0.6407097092163543,
+    "volume": 1743787,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AON",
+    "name": "Aon plc Class A",
+    "market_cap": 77885208902.88,
+    "current_price": 356.93,
+    "previous_close": 357.13,
+    "percentage_change": -0.056002016072575427,
+    "volume": 883242,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BMO",
+    "name": "Bank of Montreal",
+    "market_cap": 77001626592.88,
+    "current_price": 111.3,
+    "previous_close": 110.45,
+    "percentage_change": 0.769578995020366,
+    "volume": 414428,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ORLY",
+    "name": "O'Reilly Automotive, Inc.",
+    "market_cap": 76234793953.5,
+    "current_price": 90.5,
+    "previous_close": 90.26,
+    "percentage_change": 0.26589851539995,
+    "volume": 4547105,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "RCL",
+    "name": "Royal Caribbean Group",
+    "market_cap": 76164537534.84001,
+    "current_price": 315.1,
+    "previous_close": 310,
+    "percentage_change": 1.645161290322588,
+    "volume": 2820665,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "INFY",
+    "name": "Infosys Limited American Depositary Shares",
+    "market_cap": 75846485628.3,
+    "current_price": 18.9,
+    "previous_close": 18.71,
+    "percentage_change": 1.015499732763216,
+    "volume": 15010108,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ECL",
+    "name": "Ecolab, Inc.",
+    "market_cap": 75652506987.12,
+    "current_price": 272.61,
+    "previous_close": 269.48,
+    "percentage_change": 1.1614962149324608,
+    "volume": 1056453,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GD",
+    "name": "General Dynamics Corporation",
+    "market_cap": 75432741611.15001,
+    "current_price": 294.38,
+    "previous_close": 291.63,
+    "percentage_change": 0.9429756883722525,
+    "volume": 1468842,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "market_cap": 74452444558.01999,
+    "current_price": 215.97,
+    "previous_close": 218.9,
+    "percentage_change": -1.3385107354956631,
+    "volume": 5398126,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SNPS",
+    "name": "Synopsys Inc",
+    "market_cap": 74318986083.24,
+    "current_price": 521.78,
+    "previous_close": 509.215,
+    "percentage_change": 2.4675235411368472,
+    "volume": 1512846,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "WMB",
+    "name": "Williams Companies Inc.",
+    "market_cap": 74102877141.51,
+    "current_price": 58.72,
+    "previous_close": 62.54,
+    "percentage_change": -6.108090821874001,
+    "volume": 18940174,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill, Inc.",
+    "market_cap": 73633442600,
+    "current_price": 58.24,
+    "previous_close": 56.165,
+    "percentage_change": 3.6944716460429143,
+    "volume": 21803810,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MAR",
+    "name": "Marriot International Class A Common Stock",
+    "market_cap": 73604104058.87001,
+    "current_price": 278.07,
+    "previous_close": 271.435,
+    "percentage_change": 2.444415790152335,
+    "volume": 1515520,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "EMR",
+    "name": "Emerson Electric Co.",
+    "market_cap": 73535625000,
+    "current_price": 135.51,
+    "previous_close": 132.94,
+    "percentage_change": 1.933202948698656,
+    "volume": 2724815,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ITUB",
+    "name": "Itau Unibanco Holding S.A. American Depositary Shares",
+    "market_cap": 73222732719.43001,
+    "current_price": 6.79,
+    "previous_close": 6.8,
+    "percentage_change": -0.14705882352940863,
+    "volume": 19214387,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PBR.A",
+    "name": "Petroleo Brasileiro S.A.-Petrobras",
+    "market_cap": 72499121786.25,
+    "current_price": 11.55,
+    "previous_close": 11.55,
+    "percentage_change": 0,
+    "volume": 3694553,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CP",
+    "name": "Canadian Pacific Kansas City Limited",
+    "market_cap": 72491831712.51,
+    "current_price": 80.46,
+    "previous_close": 79.27,
+    "percentage_change": 1.5011984357259969,
+    "volume": 2457258,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HOOD",
+    "name": "Robinhood Markets, Inc. Class A Common Stock",
+    "market_cap": 72371279491.61,
+    "current_price": 92.33,
+    "previous_close": 95.012,
+    "percentage_change": -2.822801330358273,
+    "volume": 121171547,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ITW",
+    "name": "Illinois Tool Works Inc.",
+    "market_cap": 72109357638.2,
+    "current_price": 255.19,
+    "previous_close": 246.07,
+    "percentage_change": 3.70626244564555,
+    "volume": 1317778,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PNC",
+    "name": "PNC Financial Services Group",
+    "market_cap": 72001106978.18001,
+    "current_price": 192.52,
+    "previous_close": 186.04,
+    "percentage_change": 3.483121909266834,
+    "volume": 3601902,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NGG",
+    "name": "National Grid PLC",
+    "market_cap": 71808924329,
+    "current_price": 74.38,
+    "previous_close": 74.41,
+    "percentage_change": -0.04031716167181983,
+    "volume": 1535513,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc. Common Stock",
+    "market_cap": 71558965557.81999,
+    "current_price": 75.29,
+    "previous_close": 73.95,
+    "percentage_change": 1.8120351588911472,
+    "volume": 8633809,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CL",
+    "name": "Colgate-Palmolive Company",
+    "market_cap": 71462846005.24,
+    "current_price": 92.04,
+    "previous_close": 91.1,
+    "percentage_change": 1.0318331503842064,
+    "volume": 6022949,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HWM",
+    "name": "Howmet Aerospace Inc.",
+    "market_cap": 71276729127.34,
+    "current_price": 176.22,
+    "previous_close": 183.88,
+    "percentage_change": -4.165760278442461,
+    "volume": 6061306,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RBLX",
+    "name": "Roblox Corporation",
+    "market_cap": 71070630630.48,
+    "current_price": 100.65,
+    "previous_close": 104.61,
+    "percentage_change": -3.78548895899053,
+    "volume": 9733393,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ZTS",
+    "name": "ZOETIS INC.",
+    "market_cap": 70240474521.81,
+    "current_price": 159.19,
+    "previous_close": 154.94,
+    "percentage_change": 2.742997289273267,
+    "volume": 3926565,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MFG",
+    "name": "Mizuho Financial Group, Inc. American Depositary Shares (Each representing one-fifth of an Ordinary Share)",
+    "market_cap": 70142758896,
+    "current_price": 5.62,
+    "previous_close": 5.6,
+    "percentage_change": 0.3571428571428654,
+    "volume": 5457658,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NOC",
+    "name": "Northrop Grumman Corp.",
+    "market_cap": 70081511840.2,
+    "current_price": 503.53,
+    "previous_close": 499.95,
+    "percentage_change": 0.7160716071607129,
+    "volume": 651573,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MSI",
+    "name": "Motorola Solutions, Inc. New",
+    "market_cap": 69829227021.75,
+    "current_price": 425.65,
+    "previous_close": 420.87,
+    "percentage_change": 1.1357426283650467,
+    "volume": 1220886,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "USB",
+    "name": "U.S. Bancorp",
+    "market_cap": 69394548546.81999,
+    "current_price": 46.49,
+    "previous_close": 44.97,
+    "percentage_change": 3.3800311318656955,
+    "volume": 16514367,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "JCI",
+    "name": "Johnson Controls International plc",
+    "market_cap": 68009188971.75,
+    "current_price": 104.67,
+    "previous_close": 105.22,
+    "percentage_change": -0.5227143128682733,
+    "volume": 4994661,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EQNR",
+    "name": "Equinor ASA American Depositary Shares (Each Representing One Ordinary Share, nominal value NOK 2.50 per share)",
+    "market_cap": 67834720211.24999,
+    "current_price": 25.24,
+    "previous_close": 25.37,
+    "percentage_change": -0.5124162396531436,
+    "volume": 5038547,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BNS",
+    "name": "Bank of Nova Scotia",
+    "market_cap": 67585057342.34,
+    "current_price": 55.67,
+    "previous_close": 55.27,
+    "percentage_change": 0.7237199203908061,
+    "volume": 6969923,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EPD",
+    "name": "Enterprise Products Partners L.P.",
+    "market_cap": 67496250001.200005,
+    "current_price": 31.17,
+    "previous_close": 31.11,
+    "percentage_change": 0.19286403085825224,
+    "volume": 3701685,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "market_cap": 65980059520,
+    "current_price": 31.66,
+    "previous_close": 31.48,
+    "percentage_change": 0.5717916137229978,
+    "volume": 2873816,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EOG",
+    "name": "EOG Resources, Inc.",
+    "market_cap": 65865576366.8,
+    "current_price": 121.19,
+    "previous_close": 119.97,
+    "percentage_change": 1.0169208968908885,
+    "volume": 3680329,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CM",
+    "name": "Canadian Imperial Bank of Commerce",
+    "market_cap": 65626887823.5,
+    "current_price": 71.11,
+    "previous_close": 70.68,
+    "percentage_change": 0.6083757781550546,
+    "volume": 1231469,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BK",
+    "name": "Bank of New York Mellon Corporation",
+    "market_cap": 65247606792,
+    "current_price": 90.65,
+    "previous_close": 90.74,
+    "percentage_change": -0.09918448313862598,
+    "volume": 4343324,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ADSK",
+    "name": "Autodesk Inc",
+    "market_cap": 65079788101.65,
+    "current_price": 311.67,
+    "previous_close": 308.41,
+    "percentage_change": 1.0570344671054734,
+    "volume": 2001276,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MRVL",
+    "name": "Marvell Technology, Inc. Common Stock",
+    "market_cap": 64846061999.99999,
+    "current_price": 76.24,
+    "previous_close": 76.73,
+    "percentage_change": -0.6386028932620996,
+    "volume": 16702108,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "NEM",
+    "name": "Newmont Corporation",
+    "market_cap": 64653991896.060005,
+    "current_price": 58.83,
+    "previous_close": 58.915,
+    "percentage_change": -0.14427565136213333,
+    "volume": 10559650,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BCS",
+    "name": "Barclays PLC",
+    "market_cap": 64634078844.50001,
+    "current_price": 18.33,
+    "previous_close": 18.34,
+    "percentage_change": -0.05452562704471954,
+    "volume": 19931199,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NET",
+    "name": "Cloudflare, Inc. Class A common stock, par value $0.001 per share",
+    "market_cap": 64618573329.83,
+    "current_price": 184.95,
+    "previous_close": 195.3,
+    "percentage_change": -5.2995391705069235,
+    "volume": 5633973,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CNI",
+    "name": "Canadian National Railway",
+    "market_cap": 64080300000,
+    "current_price": 104.98,
+    "previous_close": 103.97,
+    "percentage_change": 0.9714340675194817,
+    "volume": 1051686,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NU",
+    "name": "Nu Holdings Ltd.",
+    "market_cap": 63826898140.53,
+    "current_price": 13.64,
+    "previous_close": 13.73,
+    "percentage_change": -0.6554989075018198,
+    "volume": 84237451,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WDAY",
+    "name": "Workday, Inc. Class A Common Stock",
+    "market_cap": 63767097240,
+    "current_price": 239.23,
+    "previous_close": 238.585,
+    "percentage_change": 0.27034390259235985,
+    "volume": 2603983,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ING",
+    "name": "ING Groep N.V. American Depositary Shares",
+    "market_cap": 63615125445.6,
+    "current_price": 22,
+    "previous_close": 21.9,
+    "percentage_change": 0.4566210045662165,
+    "volume": 2627946,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KMI",
+    "name": "Kinder Morgan, Inc.",
+    "market_cap": 63437968047.82,
+    "current_price": 28.33,
+    "previous_close": 29.355,
+    "percentage_change": -3.4917390563788184,
+    "volume": 18914805,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VST",
+    "name": "Vistra Corp.",
+    "market_cap": 63173429876.17999,
+    "current_price": 185.1,
+    "previous_close": 192.82,
+    "percentage_change": -4.003734052484181,
+    "volume": 6125707,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LYG",
+    "name": "Lloyds Banking Group PLC",
+    "market_cap": 63055245298.45,
+    "current_price": 4.23,
+    "previous_close": 4.25,
+    "percentage_change": -0.47058823529410765,
+    "volume": 12873851,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "APD",
+    "name": "Air Products \u0026 Chemicals, Inc.",
+    "market_cap": 62534924134,
+    "current_price": 285.47,
+    "previous_close": 278.44,
+    "percentage_change": 2.524780922281292,
+    "volume": 1324425,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CARR",
+    "name": "Carrier Global Corporation",
+    "market_cap": 62120671513.619995,
+    "current_price": 74.3,
+    "previous_close": 72.6,
+    "percentage_change": 2.341597796143255,
+    "volume": 5148146,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MNST",
+    "name": "Monster Beverage Corporation",
+    "market_cap": 61996398327.63,
+    "current_price": 63.54,
+    "previous_close": 62.83,
+    "percentage_change": 1.1300334235237959,
+    "volume": 5946275,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AXON",
+    "name": "Axon Enterprise, Inc. Common Stock",
+    "market_cap": 61833007431,
+    "current_price": 775.38,
+    "previous_close": 825.89,
+    "percentage_change": -6.11582656285946,
+    "volume": 997650,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CRH",
+    "name": "CRH Public Limited Company",
+    "market_cap": 61641260869.759995,
+    "current_price": 93.3,
+    "previous_close": 91.855,
+    "percentage_change": 1.5731315660551883,
+    "volume": 4072862,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ROP",
+    "name": "Roper Technologies, Inc. Common Stock",
+    "market_cap": 61393441994.939995,
+    "current_price": 572.71,
+    "previous_close": 567.24,
+    "percentage_change": 0.9643184542698024,
+    "volume": 563428,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CSX",
+    "name": "CSX Corporation",
+    "market_cap": 61015169890.079994,
+    "current_price": 33.47,
+    "previous_close": 32.74,
+    "percentage_change": 2.229688454489911,
+    "volume": 12863090,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "HLT",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "market_cap": 60834493434.48,
+    "current_price": 268.96,
+    "previous_close": 265.42,
+    "percentage_change": 1.3337352121166315,
+    "volume": 2207038,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AEM",
+    "name": "Agnico Eagle Mines Ltd.",
+    "market_cap": 60664884756.899994,
+    "current_price": 117.96,
+    "previous_close": 120.42,
+    "percentage_change": -2.0428500249128114,
+    "volume": 1771529,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ET",
+    "name": "Energy Transfer LP Common Units representing limited partner interests",
+    "market_cap": 60639519362.73,
+    "current_price": 17.81,
+    "previous_close": 18.15,
+    "percentage_change": -1.8732782369146,
+    "volume": 15361408,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FCX",
+    "name": "Freeport-McMoran Inc.",
+    "market_cap": 60334772628.53,
+    "current_price": 44.05,
+    "previous_close": 43.985,
+    "percentage_change": 0.14777765147208757,
+    "volume": 9385658,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AZO",
+    "name": "AutoZone, Inc.",
+    "market_cap": 59847643483.56,
+    "current_price": 3718.59,
+    "previous_close": 3707.51,
+    "percentage_change": 0.29885286890662266,
+    "volume": 134612,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DLR",
+    "name": "Digital Realty Trust, Inc.",
+    "market_cap": 59834375935.74,
+    "current_price": 171.25,
+    "previous_close": 173.37,
+    "percentage_change": -1.2228182499855826,
+    "volume": 2250359,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TRV",
+    "name": "The Travelers Companies, Inc.",
+    "market_cap": 59091405076.66,
+    "current_price": 267,
+    "previous_close": 266.28,
+    "percentage_change": 0.27039206849933434,
+    "volume": 1128605,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NSC",
+    "name": "Norfolk Southern Corp.",
+    "market_cap": 58042683767.46,
+    "current_price": 262.38,
+    "previous_close": 255.78,
+    "percentage_change": 2.580342481820312,
+    "volume": 1309421,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "COR",
+    "name": "Cencora, Inc.",
+    "market_cap": 57007363996.44,
+    "current_price": 295.33,
+    "previous_close": 300.42,
+    "percentage_change": -1.694294654150866,
+    "volume": 2064543,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DB",
+    "name": "Deutsche Bank Aktiengesellschaft",
+    "market_cap": 56884030338.93,
+    "current_price": 28.71,
+    "previous_close": 28.88,
+    "percentage_change": -0.588642659279772,
+    "volume": 4204570,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NWG",
+    "name": "NatWest Group plc American Depositary Shares, (each representing two (2) Ordinary Shares)",
+    "market_cap": 56515601981.22,
+    "current_price": 13.89,
+    "previous_close": 13.85,
+    "percentage_change": 0.28880866425993446,
+    "volume": 5569501,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "market_cap": 56387140118.189995,
+    "current_price": 534.91,
+    "previous_close": 523.97,
+    "percentage_change": 2.087905796133355,
+    "volume": 1200806,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AFL",
+    "name": "Aflac Inc.",
+    "market_cap": 56313586116.479996,
+    "current_price": 105.78,
+    "previous_close": 105.2,
+    "percentage_change": 0.5513307984790858,
+    "volume": 2519029,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DEO",
+    "name": "Diageo plc",
+    "market_cap": 56224076352.4,
+    "current_price": 103.9,
+    "previous_close": 101.54,
+    "percentage_change": 2.324207208981681,
+    "volume": 896930,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NXPI",
+    "name": "NXP Semiconductors N.V.",
+    "market_cap": 55201896799.979996,
+    "current_price": 221.21,
+    "previous_close": 216.59,
+    "percentage_change": 2.133062468258001,
+    "volume": 4451122,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AEP",
+    "name": "American Electric Power Company, Inc.",
+    "market_cap": 55171662285.28,
+    "current_price": 104.39,
+    "previous_close": 104.1,
+    "percentage_change": 0.2785782901056737,
+    "volume": 3516298,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PWR",
+    "name": "Quanta Services, Inc.",
+    "market_cap": 55168453645.9,
+    "current_price": 372.29,
+    "previous_close": 374.59,
+    "percentage_change": -0.6140046450786072,
+    "volume": 1428857,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CHTR",
+    "name": "Charter Comm Inc Del CL A New",
+    "market_cap": 55094844415.950005,
+    "current_price": 418.22,
+    "previous_close": 407.82,
+    "percentage_change": 2.550144671668882,
+    "volume": 1328626,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "FDX",
+    "name": "FedEx Corporation",
+    "market_cap": 54990347899.689995,
+    "current_price": 234.33,
+    "previous_close": 226.4,
+    "percentage_change": 3.5026501766784484,
+    "volume": 2720962,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PAYX",
+    "name": "Paychex Inc",
+    "market_cap": 54886125000,
+    "current_price": 147.42,
+    "previous_close": 145.69,
+    "percentage_change": 1.187452810762571,
+    "volume": 3666878,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TFC",
+    "name": "Truist Financial Corporation",
+    "market_cap": 54280389933.450005,
+    "current_price": 44.2,
+    "previous_close": 42.82,
+    "percentage_change": 3.2227930873423696,
+    "volume": 8296457,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MET",
+    "name": "MetLife, Inc.",
+    "market_cap": 53475584819.159996,
+    "current_price": 81.09,
+    "previous_close": 80.36,
+    "percentage_change": 0.9084121453459483,
+    "volume": 2681595,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MFC",
+    "name": "Manulife Financial Corp.",
+    "market_cap": 53426981461.12,
+    "current_price": 32,
+    "previous_close": 31.93,
+    "percentage_change": 0.21922956467272248,
+    "volume": 2733406,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LNG",
+    "name": "Cheniere Energy Inc",
+    "market_cap": 53217424486.299995,
+    "current_price": 236.04,
+    "previous_close": 245.4,
+    "percentage_change": -3.81418092909536,
+    "volume": 1755792,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MPLX",
+    "name": "MPLX LP",
+    "market_cap": 53040881844.36,
+    "current_price": 50.79,
+    "previous_close": 51.61,
+    "percentage_change": -1.5888393722146879,
+    "volume": 1768514,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TEAM",
+    "name": "Atlassian Corporation Class A Common Stock",
+    "market_cap": 52677046310.78999,
+    "current_price": 207.71,
+    "previous_close": 203.66,
+    "percentage_change": 1.9886084650888793,
+    "volume": 2337924,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CPNG",
+    "name": "Coupang, Inc.",
+    "market_cap": 52561997044.799995,
+    "current_price": 29.93,
+    "previous_close": 30.04,
+    "percentage_change": -0.36617842876164924,
+    "volume": 9365282,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMX",
+    "name": "America Movil S.A.B de C.V American Depositary Shares (each representing the right to receive twenty (20) Series B Shares)",
+    "market_cap": 52379924999.99999,
+    "current_price": 17.98,
+    "previous_close": 18,
+    "percentage_change": -0.11111111111110875,
+    "volume": 1006374,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "O",
+    "name": "Realty Income Corporation",
+    "market_cap": 52360575327.06,
+    "current_price": 57.8,
+    "previous_close": 57.44,
+    "percentage_change": 0.626740947075208,
+    "volume": 5686898,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SPG",
+    "name": "Simon Property Group, Inc.",
+    "market_cap": 52267177244.68,
+    "current_price": 164.27,
+    "previous_close": 160.34,
+    "percentage_change": 2.4510415367344436,
+    "volume": 1772278,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ALL",
+    "name": "The Allstate Corporation",
+    "market_cap": 51917471855.25,
+    "current_price": 200.14,
+    "previous_close": 201.32,
+    "percentage_change": -0.5861315318895325,
+    "volume": 1533528,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PSA",
+    "name": "Public Storage",
+    "market_cap": 51857505286.4,
+    "current_price": 298.09,
+    "previous_close": 292.17,
+    "percentage_change": 2.0262176130334937,
+    "volume": 771819,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MPC",
+    "name": "MARATHON PETROLEUM CORPORATION",
+    "market_cap": 50902259161.32,
+    "current_price": 169.95,
+    "previous_close": 166.36,
+    "percentage_change": 2.157970666025472,
+    "volume": 1949322,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NDAQ",
+    "name": "Nasdaq, Inc. Common Stock",
+    "market_cap": 50591597154.4,
+    "current_price": 88.94,
+    "previous_close": 89.24,
+    "percentage_change": -0.3361721201255011,
+    "volume": 3058449,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "OKE",
+    "name": "Oneok, Inc.",
+    "market_cap": 50320392508.24,
+    "current_price": 80.99,
+    "previous_close": 81.63,
+    "percentage_change": -0.7840254808281276,
+    "volume": 3969640,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GWW",
+    "name": "W.W. Grainger, Inc.",
+    "market_cap": 50027075633.94,
+    "current_price": 1052.12,
+    "previous_close": 1038.86,
+    "percentage_change": 1.2763991298153738,
+    "volume": 268805,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CTVA",
+    "name": "Corteva, Inc. Common Stock",
+    "market_cap": 49996239300.00001,
+    "current_price": 75.11,
+    "previous_close": 74.51,
+    "percentage_change": 0.8052610387867323,
+    "volume": 3614249,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMP",
+    "name": "Ameriprise Financial, Inc.",
+    "market_cap": 49643388341.82,
+    "current_price": 538.6,
+    "previous_close": 530.89,
+    "percentage_change": 1.4522782497315896,
+    "volume": 401950,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SRE",
+    "name": "Sempra",
+    "market_cap": 49623644214.200005,
+    "current_price": 76.18,
+    "previous_close": 75.53,
+    "percentage_change": 0.8605851979346031,
+    "volume": 3780735,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CRCL",
+    "name": "Circle Internet Group, Inc.",
+    "market_cap": 49548556604.75,
+    "current_price": 192.53,
+    "previous_close": 184.67,
+    "percentage_change": 4.256240862078309,
+    "volume": 31252118,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TEL",
+    "name": "TE Connectivity plc",
+    "market_cap": 49369063484.24,
+    "current_price": 170.27,
+    "previous_close": 168.2,
+    "percentage_change": 1.2306777645660059,
+    "volume": 1418835,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PCAR",
+    "name": "Paccar Inc",
+    "market_cap": 49351435544.25,
+    "current_price": 98.2,
+    "previous_close": 94.85,
+    "percentage_change": 3.53189246178177,
+    "volume": 3441515,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AIG",
+    "name": "American International Group, Inc.",
+    "market_cap": 49253184019.6,
+    "current_price": 85.87,
+    "previous_close": 85.86,
+    "percentage_change": 0.0116468669927849,
+    "volume": 3622945,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BDX",
+    "name": "Becton, Dickinson and Co.",
+    "market_cap": 49173234019.979996,
+    "current_price": 177.67,
+    "previous_close": 172.21,
+    "percentage_change": 3.1705475872481155,
+    "volume": 3218381,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TRP",
+    "name": "TC Energy Corporation",
+    "market_cap": 49059921965.34,
+    "current_price": 47.88,
+    "previous_close": 48.76,
+    "percentage_change": -1.8047579983593016,
+    "volume": 3567852,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PSX",
+    "name": "PHILLIPS 66",
+    "market_cap": 48672452929.32,
+    "current_price": 123.15,
+    "previous_close": 119.28,
+    "percentage_change": 3.2444668008048327,
+    "volume": 2731525,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WCN",
+    "name": "Waste Connections, Inc.",
+    "market_cap": 48619457940.479996,
+    "current_price": 185.87,
+    "previous_close": 187.36,
+    "percentage_change": -0.7952604611443259,
+    "volume": 528533,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KR",
+    "name": "The Kroger Co.",
+    "market_cap": 48542061625.96,
+    "current_price": 71.35,
+    "previous_close": 72.09,
+    "percentage_change": -1.0264946594534734,
+    "volume": 6036798,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "E",
+    "name": "ENI S.p.A.",
+    "market_cap": 48530184950.7,
+    "current_price": 32.72,
+    "previous_close": 32.55,
+    "percentage_change": 0.5222734254992373,
+    "volume": 212590,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ZS",
+    "name": "Zscaler, Inc. Common Stock",
+    "market_cap": 48025886985.119995,
+    "current_price": 307.32,
+    "previous_close": 314.5,
+    "percentage_change": -2.2829888712241675,
+    "volume": 4228534,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "URI",
+    "name": "United Rentals, Inc.",
+    "market_cap": 47850989586.299995,
+    "current_price": 774.14,
+    "previous_close": 752.98,
+    "percentage_change": 2.810167600733083,
+    "volume": 628542,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "D",
+    "name": "Dominion Energy, Inc Common Stock",
+    "market_cap": 47739216164.579994,
+    "current_price": 57.65,
+    "previous_close": 56.67,
+    "percentage_change": 1.7293100405858421,
+    "volume": 5922551,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FAST",
+    "name": "Fastenal Co",
+    "market_cap": 47644930192.28,
+    "current_price": 42.86,
+    "previous_close": 42.04,
+    "percentage_change": 1.9505233111322555,
+    "volume": 5569992,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "FLUT",
+    "name": "Flutter Entertainment plc",
+    "market_cap": 47263821525.9,
+    "current_price": 284.76,
+    "previous_close": 282.03,
+    "percentage_change": 0.9679821295606915,
+    "volume": 2686437,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HLN",
+    "name": "Haleon plc American Depositary Shares (Each representing two Ordinary Shares)",
+    "market_cap": 47120575934.520004,
+    "current_price": 10.35,
+    "previous_close": 10.31,
+    "percentage_change": 0.38797284190105863,
+    "volume": 17868929,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GM",
+    "name": "General Motors Company",
+    "market_cap": 47110302358,
+    "current_price": 52.03,
+    "previous_close": 48.82,
+    "percentage_change": 6.575174108971734,
+    "volume": 13748031,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TAK",
+    "name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
+    "market_cap": 47105035949.92,
+    "current_price": 15.37,
+    "previous_close": 15.39,
+    "percentage_change": -0.12995451591943696,
+    "volume": 3550543,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CPRT",
+    "name": "Copart Inc",
+    "market_cap": 47041446811.1,
+    "current_price": 49.64,
+    "previous_close": 49.07,
+    "percentage_change": 1.1616058691664974,
+    "volume": 5927474,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "JD",
+    "name": "JD.com, Inc.",
+    "market_cap": 46964070000,
+    "current_price": 32.7,
+    "previous_close": 32.435,
+    "percentage_change": 0.8170186526899971,
+    "volume": 6415475,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "FICO",
+    "name": "Fair Isaac Corporation",
+    "market_cap": 46894752618.8,
+    "current_price": 1843.18,
+    "previous_close": 1806.42,
+    "percentage_change": 2.0349641833017786,
+    "volume": 185467,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VRT",
+    "name": "Vertiv Holdings Co Class A Common Stock",
+    "market_cap": 46616785372.96,
+    "current_price": 122.54,
+    "previous_close": 127,
+    "percentage_change": -3.511811023622043,
+    "volume": 8974339,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SU",
+    "name": "Suncor Energy, Inc.",
+    "market_cap": 46611234053.049995,
+    "current_price": 37.83,
+    "previous_close": 37.68,
+    "percentage_change": 0.39808917197451854,
+    "volume": 2730161,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LHX",
+    "name": "L3Harris Technologies, Inc.",
+    "market_cap": 46110141119.4,
+    "current_price": 252.18,
+    "previous_close": 250.75,
+    "percentage_change": 0.5702891326021962,
+    "volume": 958475,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper Inc.",
+    "market_cap": 45567406217.299995,
+    "current_price": 33.57,
+    "previous_close": 33.09,
+    "percentage_change": 1.450589301903889,
+    "volume": 12070007,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "SLB",
+    "name": "Schlumberger Limited",
+    "market_cap": 45257215409,
+    "current_price": 35.2,
+    "previous_close": 33.8,
+    "percentage_change": 4.142011834319543,
+    "volume": 18964619,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DDOG",
+    "name": "Datadog, Inc. Class A Common Stock",
+    "market_cap": 45182563211.73,
+    "current_price": 132.33,
+    "previous_close": 133.66,
+    "percentage_change": -0.9950620978602306,
+    "volume": 4164023,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CMI",
+    "name": "Cummins Inc.",
+    "market_cap": 44611923393.450005,
+    "current_price": 329.62,
+    "previous_close": 326.48,
+    "percentage_change": 0.9617740749816179,
+    "volume": 912036,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MSCI",
+    "name": "MSCI, Inc.",
+    "market_cap": 44541995956.55,
+    "current_price": 581.34,
+    "previous_close": 574.4,
+    "percentage_change": 1.2082172701949956,
+    "volume": 456829,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EW",
+    "name": "Edwards Lifesciences Corp",
+    "market_cap": 44493610000,
+    "current_price": 77.18,
+    "previous_close": 77.7,
+    "percentage_change": -0.6692406692406642,
+    "volume": 3143257,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TTWO",
+    "name": "Take-Two Interactive Software Inc",
+    "market_cap": 44450784514.4,
+    "current_price": 240.1,
+    "previous_close": 242.425,
+    "percentage_change": -0.9590595029390603,
+    "volume": 1932647,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CCI",
+    "name": "Crown Castle Inc.",
+    "market_cap": 44338415830.56,
+    "current_price": 103.72,
+    "previous_close": 102.7,
+    "percentage_change": 0.9931840311587108,
+    "volume": 3405595,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TGT",
+    "name": "Target Corporation",
+    "market_cap": 44314306324.53,
+    "current_price": 103.85,
+    "previous_close": 98.33,
+    "percentage_change": 5.613749618631136,
+    "volume": 9968224,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HEI",
+    "name": "HEICO Corporation",
+    "market_cap": 44180857012.32,
+    "current_price": 321.51,
+    "previous_close": 327,
+    "percentage_change": -1.6788990825688102,
+    "volume": 547207,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GLW",
+    "name": "Corning Incorporated",
+    "market_cap": 44039761804.74,
+    "current_price": 52.59,
+    "previous_close": 52.44,
+    "percentage_change": 0.28604118993136096,
+    "volume": 5817611,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FERG",
+    "name": "Ferguson Enterprises Inc.",
+    "market_cap": 43980442092,
+    "current_price": 220.89,
+    "previous_close": 217.61,
+    "percentage_change": 1.5072836726253263,
+    "volume": 1954092,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CVNA",
+    "name": "Carvana Co.",
+    "market_cap": 43608518801.950005,
+    "current_price": 338.26,
+    "previous_close": 335.9,
+    "percentage_change": 0.7025900565644578,
+    "volume": 3332191,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EXC",
+    "name": "Exelon Corporation",
+    "market_cap": 43510987118.4,
+    "current_price": 43.41,
+    "previous_close": 43.9,
+    "percentage_change": -1.116173120728934,
+    "volume": 7123475,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ALC",
+    "name": "Alcon Inc. Ordinary Shares",
+    "market_cap": 43313551492.68,
+    "current_price": 89.02,
+    "previous_close": 87.77,
+    "percentage_change": 1.4241768257946907,
+    "volume": 1021451,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FIS",
+    "name": "Fidelity National Information Services, Inc.",
+    "market_cap": 43150695702.89,
+    "current_price": 82.35,
+    "previous_close": 81.25,
+    "percentage_change": 1.3538461538461468,
+    "volume": 3001395,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KMB",
+    "name": "Kimberly-Clark Corp.",
+    "market_cap": 43119493748.25,
+    "current_price": 131.61,
+    "previous_close": 129.65,
+    "percentage_change": 1.5117624373312826,
+    "volume": 2829960,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "HES",
+    "name": "Hess Corporation",
+    "market_cap": 42716516459.16,
+    "current_price": 141.15,
+    "previous_close": 138.74,
+    "percentage_change": 1.737062130604005,
+    "volume": 1741018,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "F",
+    "name": "Ford Motor Company",
+    "market_cap": 42668369106.85,
+    "current_price": 11.35,
+    "previous_close": 10.81,
+    "percentage_change": 4.995374653098975,
+    "volume": 140150738,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IDXX",
+    "name": "Idexx Laboratories Inc",
+    "market_cap": 42663826968.5,
+    "current_price": 542.65,
+    "previous_close": 533.88,
+    "percentage_change": 1.6426912414774821,
+    "volume": 631495,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero Energy Corporation",
+    "market_cap": 42549051537.85,
+    "current_price": 138.01,
+    "previous_close": 134.86,
+    "percentage_change": 2.335755598398322,
+    "volume": 3578341,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VRSK",
+    "name": "Verisk Analytics, Inc. Common Stock",
+    "market_cap": 42548539701.090004,
+    "current_price": 312.95,
+    "previous_close": 311.34,
+    "percentage_change": 0.5171195477612943,
+    "volume": 870624,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ALNY",
+    "name": "Alnylam Pharmaceuticals, Inc.",
+    "market_cap": 42376227725,
+    "current_price": 322.06,
+    "previous_close": 324.77,
+    "percentage_change": -0.8344366782646119,
+    "volume": 1240081,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ROST",
+    "name": "Ross Stores Inc",
+    "market_cap": 41972959959.93,
+    "current_price": 129.97,
+    "previous_close": 127.41,
+    "percentage_change": 2.009261439447455,
+    "volume": 2976509,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CCEP",
+    "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+    "market_cap": 41857003667.64,
+    "current_price": 93.17,
+    "previous_close": 92.83,
+    "percentage_change": 0.36626090703436753,
+    "volume": 2007372,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "OXY",
+    "name": "Occidental Petroleum Corporation",
+    "market_cap": 41805956161.439995,
+    "current_price": 42.86,
+    "previous_close": 42.065,
+    "percentage_change": 1.8899322477118785,
+    "volume": 10608101,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PEG",
+    "name": "Public Service Enterprise Group Incorporated",
+    "market_cap": 41481696258.299995,
+    "current_price": 82.87,
+    "previous_close": 83.94,
+    "percentage_change": -1.2747200381224604,
+    "volume": 2667854,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CBRE",
+    "name": "CBRE GROUP, INC.",
+    "market_cap": 41475328197.89,
+    "current_price": 141.62,
+    "previous_close": 139.47,
+    "percentage_change": 1.5415501541550196,
+    "volume": 1288164,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AME",
+    "name": "Ametek, Inc.",
+    "market_cap": 41382748016.72,
+    "current_price": 183.06,
+    "previous_close": 180.18,
+    "percentage_change": 1.598401598401596,
+    "volume": 1094521,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "YUM",
+    "name": "Yum! Brands, Inc.",
+    "market_cap": 40910815257.18,
+    "current_price": 150.37,
+    "previous_close": 148.28,
+    "percentage_change": 1.4094955489614267,
+    "volume": 1726622,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FANG",
+    "name": "Diamondback Energy, Inc.",
+    "market_cap": 40713605226,
+    "current_price": 140.2,
+    "previous_close": 137.8,
+    "percentage_change": 1.7416545718432344,
+    "volume": 2014180,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "KVUE",
+    "name": "Kenvue Inc.",
+    "market_cap": 40682891586.22,
+    "current_price": 20.97,
+    "previous_close": 20.94,
+    "percentage_change": 0.1432664756446876,
+    "volume": 17882889,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VG",
+    "name": "Venture Global, Inc.",
+    "market_cap": 40460083744.96,
+    "current_price": 14.92,
+    "previous_close": 15.29,
+    "percentage_change": -2.419882275997379,
+    "volume": 6252058,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BSBR",
+    "name": "BANCO SANTANDER (BRASIL) SA",
+    "market_cap": 40267994964.89,
+    "current_price": 5.51,
+    "previous_close": 5.48,
+    "percentage_change": 0.5474452554744409,
+    "volume": 453511,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WPM",
+    "name": "Wheaton Precious Metals Corp. Common Stock",
+    "market_cap": 40196219446.28,
+    "current_price": 89.38,
+    "previous_close": 91.05,
+    "percentage_change": -1.8341570565623304,
+    "volume": 1475256,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "XYZ",
+    "name": "Block, Inc.",
+    "market_cap": 40185341460,
+    "current_price": 68.27,
+    "previous_close": 67.74,
+    "percentage_change": 0.7824033067611473,
+    "volume": 7204246,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IMO",
+    "name": "Imperial Oil Limited",
+    "market_cap": 40087290836.25,
+    "current_price": 80.44,
+    "previous_close": 79.35,
+    "percentage_change": 1.3736609955891663,
+    "volume": 238695,
+    "primary_exchange": "XASE"
+  },
+  {
+    "ticker": "HMC",
+    "name": "Honda Motor Co., Ltd. American Depositary Share, each representing three (3) shares of Common Stock",
+    "market_cap": 40004070340.08,
+    "current_price": 29.2,
+    "previous_close": 29.01,
+    "percentage_change": 0.6549465701482169,
+    "volume": 1341603,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EA",
+    "name": "Electronic Arts Inc",
+    "market_cap": 39688392498.299995,
+    "current_price": 159.06,
+    "previous_close": 159.53,
+    "percentage_change": -0.294615432833949,
+    "volume": 3285442,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "XEL",
+    "name": "Xcel Energy, Inc.",
+    "market_cap": 39352376624.990005,
+    "current_price": 68.71,
+    "previous_close": 68.37,
+    "percentage_change": 0.49729413485445245,
+    "volume": 3711919,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "VALE",
+    "name": "VALE S.A.",
+    "market_cap": 39315452628.270004,
+    "current_price": 9.82,
+    "previous_close": 9.7,
+    "percentage_change": 1.237113402061866,
+    "volume": 49735963,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CAH",
+    "name": "Cardinal Health, Inc.",
+    "market_cap": 39193150991.05,
+    "current_price": 164.4,
+    "previous_close": 167.55,
+    "percentage_change": -1.880035810205912,
+    "volume": 2785478,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DHI",
+    "name": "D.R. Horton Inc.",
+    "market_cap": 39101106913.26,
+    "current_price": 133.9,
+    "previous_close": 128.53,
+    "percentage_change": 4.178012915272703,
+    "volume": 5367561,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TCOM",
+    "name": "Trip.com Group Limited American Depositary Shares",
+    "market_cap": 38804435757.84,
+    "current_price": 58.97,
+    "previous_close": 58.5,
+    "percentage_change": 0.8034188034188015,
+    "volume": 2068390,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CTSH",
+    "name": "Cognizant Technology Solutions",
+    "market_cap": 38247366909.17,
+    "current_price": 80.44,
+    "previous_close": 78.03,
+    "percentage_change": 3.0885556837113888,
+    "volume": 4900490,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "OTIS",
+    "name": "Otis Worldwide Corporation",
+    "market_cap": 38137599181.59,
+    "current_price": 100.43,
+    "previous_close": 99.13,
+    "percentage_change": 1.3114092605669438,
+    "volume": 1853364,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PRU",
+    "name": "Prudential Financial, Inc.",
+    "market_cap": 37630911997.4,
+    "current_price": 109,
+    "previous_close": 107.26,
+    "percentage_change": 1.6222263658400098,
+    "volume": 1456762,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BKR",
+    "name": "Baker Hughes Company",
+    "market_cap": 37618776550.75,
+    "current_price": 38.69,
+    "previous_close": 38.31,
+    "percentage_change": 0.9919081179848485,
+    "volume": 7639122,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "RMD",
+    "name": "ResMed Inc.",
+    "market_cap": 37523417678.09,
+    "current_price": 256.26,
+    "previous_close": 256.99,
+    "percentage_change": -0.28405774543757273,
+    "volume": 905385,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ABEV",
+    "name": "AMBEV S.A.",
+    "market_cap": 37479626642.4,
+    "current_price": 2.42,
+    "previous_close": 2.4,
+    "percentage_change": 0.8333333333333341,
+    "volume": 26804195,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FER",
+    "name": "Ferrovial SE Ordinary Shares",
+    "market_cap": 37472162881.200005,
+    "current_price": 53.38,
+    "previous_close": 53.43,
+    "percentage_change": -0.09358038555118316,
+    "volume": 154964,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ETR",
+    "name": "Entergy Corporation",
+    "market_cap": 37032380351.51,
+    "current_price": 82.53,
+    "previous_close": 83.1,
+    "percentage_change": -0.6859205776173204,
+    "volume": 3198244,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ARES",
+    "name": "Ares Management Corporation Class A Common Stock",
+    "market_cap": 36876632554.4,
+    "current_price": 174.73,
+    "previous_close": 172.55,
+    "percentage_change": 1.263401912489121,
+    "volume": 2485675,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SYY",
+    "name": "Sysco Corporation",
+    "market_cap": 36778110037.47,
+    "current_price": 77.36,
+    "previous_close": 75.97,
+    "percentage_change": 1.829669606423589,
+    "volume": 3167131,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ROK",
+    "name": "Rockwell Automation, Inc.",
+    "market_cap": 36739933722.45,
+    "current_price": 338.61,
+    "previous_close": 330.4,
+    "percentage_change": 2.484866828087178,
+    "volume": 1056153,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SLF",
+    "name": "Sun Life Financial Inc.",
+    "market_cap": 36691120758.6,
+    "current_price": 66.41,
+    "previous_close": 66.5,
+    "percentage_change": -0.13533834586466678,
+    "volume": 216891,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BRO",
+    "name": "Brown \u0026 Brown, Inc.",
+    "market_cap": 36593228103.6,
+    "current_price": 108.93,
+    "previous_close": 110.98,
+    "percentage_change": -1.8471796720129725,
+    "volume": 5379765,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TRGP",
+    "name": "Targa Resources Corp.",
+    "market_cap": 36385980710.07,
+    "current_price": 171.97,
+    "previous_close": 174.71,
+    "percentage_change": -1.5683132047392874,
+    "volume": 1830427,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ED",
+    "name": "Consolidated Edison, Inc.",
+    "market_cap": 36098068663.56,
+    "current_price": 100.78,
+    "previous_close": 100.77,
+    "percentage_change": 0.009923588369559509,
+    "volume": 2749128,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HIG",
+    "name": "The Hartford Insurance Group, Inc.",
+    "market_cap": 35961755967.88,
+    "current_price": 126.6,
+    "previous_close": 126.76,
+    "percentage_change": -0.12622278321237834,
+    "volume": 1314115,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CHT",
+    "name": "CHUNGHWA TELECOM CO., LTD",
+    "market_cap": 35800615828.25,
+    "current_price": 46.64,
+    "previous_close": 46.7,
+    "percentage_change": -0.12847965738758516,
+    "volume": 169634,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "B",
+    "name": "Barrick Mining Corporation",
+    "market_cap": 35558392680.8,
+    "current_price": 20.85,
+    "previous_close": 21.16,
+    "percentage_change": -1.4650283553875174,
+    "volume": 8458739,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TTD",
+    "name": "The Trade Desk, Inc.",
+    "market_cap": 35304953980.96,
+    "current_price": 73.49,
+    "previous_close": 73.435,
+    "percentage_change": 0.0748961666780045,
+    "volume": 8385404,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "WAB",
+    "name": "Wabtec Inc.",
+    "market_cap": 35229777557.1,
+    "current_price": 209.34,
+    "previous_close": 208.28,
+    "percentage_change": 0.5089302861532563,
+    "volume": 1121114,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FMX",
+    "name": "FOMENTO ECONOMICO MEXICANO, S.A.B. DE C.V.",
+    "market_cap": 35121440052.19,
+    "current_price": 103.39,
+    "previous_close": 102.56,
+    "percentage_change": 0.8092823712948501,
+    "volume": 401815,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EQT",
+    "name": "EQT CORP",
+    "market_cap": 34857991980,
+    "current_price": 55.72,
+    "previous_close": 58.03,
+    "percentage_change": -3.9806996381182187,
+    "volume": 11290950,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HSY",
+    "name": "The Hershey Company",
+    "market_cap": 34857982069.5,
+    "current_price": 175.81,
+    "previous_close": 165.95,
+    "percentage_change": 5.941548659234718,
+    "volume": 2869364,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CCL",
+    "name": "Carnival Corporation",
+    "market_cap": 34846171460.6,
+    "current_price": 28.64,
+    "previous_close": 28.075,
+    "percentage_change": 2.012466607301875,
+    "volume": 35589170,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HEI.A",
+    "name": "HEICO CORP CL A",
+    "market_cap": 34687001368.32,
+    "current_price": 252.24,
+    "previous_close": 257.03,
+    "percentage_change": -1.8635956892191434,
+    "volume": 303875,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ARGX",
+    "name": "argenx SE American Depositary Shares",
+    "market_cap": 34685495357.78,
+    "current_price": 542.47,
+    "previous_close": 555.38,
+    "percentage_change": -2.324534552918717,
+    "volume": 606606,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "DXCM",
+    "name": "DexCom, Inc.",
+    "market_cap": 34336853862.569996,
+    "current_price": 83.58,
+    "previous_close": 83.175,
+    "percentage_change": 0.4869251577998211,
+    "volume": 5589561,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MPWR",
+    "name": "Monolithic Power Systems, Inc.",
+    "market_cap": 34309850400.000004,
+    "current_price": 746.97,
+    "previous_close": 729.23,
+    "percentage_change": 2.4327029880833217,
+    "volume": 587232,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "EBAY",
+    "name": "eBay Inc",
+    "market_cap": 34263720990.85,
+    "current_price": 76.1,
+    "previous_close": 74.785,
+    "percentage_change": 1.7583740054823798,
+    "volume": 6177640,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ODFL",
+    "name": "Old Dominion Freight Line",
+    "market_cap": 34228374066.18,
+    "current_price": 168.45,
+    "previous_close": 162.05,
+    "percentage_change": 3.9493983338475633,
+    "volume": 2076776,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CSGP",
+    "name": "CoStar Group Inc",
+    "market_cap": 34172818893,
+    "current_price": 81.91,
+    "previous_close": 80.4,
+    "percentage_change": 1.878109452736307,
+    "volume": 3548706,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "market_cap": 34091419139.25,
+    "current_price": 91.5,
+    "previous_close": 91.4,
+    "percentage_change": 0.10940919037198502,
+    "volume": 3133408,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "VICI",
+    "name": "VICI Properties Inc. Common Stock",
+    "market_cap": 34089371787.98,
+    "current_price": 32.98,
+    "previous_close": 32.6,
+    "percentage_change": 1.165644171779127,
+    "volume": 5886946,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LYV",
+    "name": "Live Nation Entertainment Inc.",
+    "market_cap": 33882718564.86,
+    "current_price": 149.88,
+    "previous_close": 150.72,
+    "percentage_change": -0.5573248407643335,
+    "volume": 1635956,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IR",
+    "name": "Ingersoll Rand Inc. Common Stock",
+    "market_cap": 33765796124.77,
+    "current_price": 85.3,
+    "previous_close": 82.86,
+    "percentage_change": 2.944726043929517,
+    "volume": 2776141,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VMC",
+    "name": "Vulcan Materials Company(Holding Company)",
+    "market_cap": 33638839314.239998,
+    "current_price": 264.67,
+    "previous_close": 259.8,
+    "percentage_change": 1.8745188606620493,
+    "volume": 885031,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WEC",
+    "name": "WEC Energy Group, Inc.",
+    "market_cap": 33623905665.36,
+    "current_price": 104.75,
+    "previous_close": 104.53,
+    "percentage_change": 0.21046589495838405,
+    "volume": 1756662,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "A",
+    "name": "Agilent Technologies Inc.",
+    "market_cap": 33417374601.920002,
+    "current_price": 120.45,
+    "previous_close": 117.44,
+    "percentage_change": 2.563010899182566,
+    "volume": 1935742,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MLM",
+    "name": "Martin Marietta Materials",
+    "market_cap": 33299852474.07,
+    "current_price": 557.68,
+    "previous_close": 548,
+    "percentage_change": 1.7664233576642245,
+    "volume": 458397,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GEHC",
+    "name": "GE HealthCare Technologies Inc. Common Stock",
+    "market_cap": 32958562156.04,
+    "current_price": 75.95,
+    "previous_close": 73.82,
+    "percentage_change": 2.8853969114061364,
+    "volume": 3298682,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "EFX",
+    "name": "Equifax, Incorporated",
+    "market_cap": 32516550924.21,
+    "current_price": 263.94,
+    "previous_close": 257.06,
+    "percentage_change": 2.6764179568972204,
+    "volume": 935543,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WIT",
+    "name": "Wipro Limited",
+    "market_cap": 32144166835.5,
+    "current_price": 3.06,
+    "previous_close": 3.02,
+    "percentage_change": 1.3245033112582794,
+    "volume": 5049806,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BBD",
+    "name": "Banco Bradesco S.A. American Depositary Shares (Each representing one Preferred Shares)",
+    "market_cap": 32048346444.839996,
+    "current_price": 3.09,
+    "previous_close": 3.12,
+    "percentage_change": -0.9615384615384694,
+    "volume": 52148784,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PUK",
+    "name": "PRUDENTIAL PLC ADS (REP 2 ORD SHARES)",
+    "market_cap": 31934889070,
+    "current_price": 24.8,
+    "previous_close": 24.9,
+    "percentage_change": -0.4016064257028027,
+    "volume": 913454,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FNV",
+    "name": "Franco-Nevada Corporation",
+    "market_cap": 31825496021.199997,
+    "current_price": 163.26,
+    "previous_close": 166,
+    "percentage_change": -1.6506024096385599,
+    "volume": 493092,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DAL",
+    "name": "Delta Air Lines, Inc.",
+    "market_cap": 31544162763.390003,
+    "current_price": 49,
+    "previous_close": 49.095,
+    "percentage_change": -0.19350239331907296,
+    "volume": 10037595,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EXR",
+    "name": "Extra Space Storage, Inc.",
+    "market_cap": 31519682154.93,
+    "current_price": 150.5,
+    "previous_close": 147.38,
+    "percentage_change": 2.1169765232731748,
+    "volume": 1598435,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CCJ",
+    "name": "Cameco Corporation",
+    "market_cap": 31490825848.120003,
+    "current_price": 71.67,
+    "previous_close": 73.57,
+    "percentage_change": -2.5825744189207445,
+    "volume": 6175163,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PCG",
+    "name": "PG\u0026E Corporation",
+    "market_cap": 31119219784.08,
+    "current_price": 14.13,
+    "previous_close": 13.91,
+    "percentage_change": 1.581595974119343,
+    "volume": 32516605,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IRM",
+    "name": "Iron Mountain Inc.",
+    "market_cap": 31053370054,
+    "current_price": 99.93,
+    "previous_close": 102.02,
+    "percentage_change": -2.048617918055273,
+    "volume": 2226742,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "XYL",
+    "name": "Xylem Inc",
+    "market_cap": 31024820392.39,
+    "current_price": 131,
+    "previous_close": 128.84,
+    "percentage_change": 1.6764979819931671,
+    "volume": 1479832,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KB",
+    "name": "KB Financial Group Inc",
+    "market_cap": 31015436239.8,
+    "current_price": 82.79,
+    "previous_close": 82.71,
+    "percentage_change": 0.09672349171806614,
+    "volume": 197379,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IT",
+    "name": "Gartner, Inc.",
+    "market_cap": 30816791905.43,
+    "current_price": 406.7,
+    "previous_close": 403.54,
+    "percentage_change": 0.7830698319869078,
+    "volume": 1299360,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "KHC",
+    "name": "The Kraft Heinz Company Common Stock",
+    "market_cap": 30807600889.030003,
+    "current_price": 26.61,
+    "previous_close": 25.855,
+    "percentage_change": 2.92013150261071,
+    "volume": 23442279,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "JBS",
+    "name": "JBS N.V.",
+    "market_cap": 30765274051.899998,
+    "current_price": 14.21,
+    "previous_close": 14.33,
+    "percentage_change": -0.8374040474528905,
+    "volume": 4080283,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MTB",
+    "name": "M\u0026T Bank Corp.",
+    "market_cap": 30695482520.429996,
+    "current_price": 197.5,
+    "previous_close": 193.33,
+    "percentage_change": 2.156933740236894,
+    "volume": 1163223,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CUK",
+    "name": "Carnival PLC",
+    "market_cap": 30531117379.54,
+    "current_price": 26.04,
+    "previous_close": 25.58,
+    "percentage_change": 1.798279906176704,
+    "volume": 3200678,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RJF",
+    "name": "Raymond James Financial, Inc.",
+    "market_cap": 30440724693.44,
+    "current_price": 154.64,
+    "previous_close": 152.4,
+    "percentage_change": 1.4698162729658666,
+    "volume": 919456,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RYAAY",
+    "name": "Ryanair Holdings plc American Depositary Shares",
+    "market_cap": 30327816476.16,
+    "current_price": 57.68,
+    "previous_close": 57.38,
+    "percentage_change": 0.5228302544440522,
+    "volume": 888169,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TW",
+    "name": "Tradeweb Markets Inc. Class A Common Stock",
+    "market_cap": 30184250016.58,
+    "current_price": 137.82,
+    "previous_close": 146.4,
+    "percentage_change": -5.860655737704926,
+    "volume": 2059107,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "LVS",
+    "name": "Las Vegas Sands Corp.",
+    "market_cap": 30123532712.280003,
+    "current_price": 47.38,
+    "previous_close": 45.8,
+    "percentage_change": 3.4497816593886586,
+    "volume": 10764350,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NRG",
+    "name": "NRG Energy, Inc.",
+    "market_cap": 30046042575.04,
+    "current_price": 155.96,
+    "previous_close": 160.26,
+    "percentage_change": -2.683139897666282,
+    "volume": 3566745,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WTW",
+    "name": "Willis Towers Watson Public Limited Company Ordinary Shares",
+    "market_cap": 29980913802.579998,
+    "current_price": 307.61,
+    "previous_close": 306.99,
+    "percentage_change": 0.20196097592755613,
+    "volume": 943292,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "BIDU",
+    "name": "Baidu, Inc.",
+    "market_cap": 29798061265.280003,
+    "current_price": 86.04,
+    "previous_close": 85.68,
+    "percentage_change": 0.42016806722689004,
+    "volume": 1631875,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ANSS",
+    "name": "Ansys Inc",
+    "market_cap": 29739393692.609997,
+    "current_price": 353.14,
+    "previous_close": 349.13,
+    "percentage_change": 1.1485693008334978,
+    "volume": 735015,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TEF",
+    "name": "Telefonica, S.A.",
+    "market_cap": 29683688583.78,
+    "current_price": 5.32,
+    "previous_close": 5.3,
+    "percentage_change": 0.3773584905660465,
+    "volume": 748299,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WDS",
+    "name": "Woodside Energy Group Limited American Depositary Shares, each representing one Ordinary Share",
+    "market_cap": 29582521432.18,
+    "current_price": 15.57,
+    "previous_close": 15.54,
+    "percentage_change": 0.19305019305020038,
+    "volume": 639689,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NUE",
+    "name": "Nucor Corporation",
+    "market_cap": 29582214869.199997,
+    "current_price": 134.11,
+    "previous_close": 129.23,
+    "percentage_change": 3.7762129536485523,
+    "volume": 2093009,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LEN",
+    "name": "Lennar Corporation Class A",
+    "market_cap": 29463171852.51,
+    "current_price": 115.49,
+    "previous_close": 110,
+    "percentage_change": 4.990909090909086,
+    "volume": 5522996,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "STX",
+    "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+    "market_cap": 29400607324.019997,
+    "current_price": 145.04,
+    "previous_close": 143.64,
+    "percentage_change": 0.9746588693957157,
+    "volume": 4951376,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "HUBS",
+    "name": "HUBSPOT, INC.",
+    "market_cap": 29391700283.120003,
+    "current_price": 557.86,
+    "previous_close": 555.02,
+    "percentage_change": 0.5116932723145169,
+    "volume": 644269,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AVB",
+    "name": "AvalonBay Communities, Inc.",
+    "market_cap": 29346352325.01,
+    "current_price": 203.28,
+    "previous_close": 203.57,
+    "percentage_change": -0.1424571400501017,
+    "volume": 1077763,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "STT",
+    "name": "State Street Corporation",
+    "market_cap": 29345187874.800003,
+    "current_price": 106.96,
+    "previous_close": 105.27,
+    "percentage_change": 1.6053956492827945,
+    "volume": 2019751,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "STZ",
+    "name": "Constellation Brands, Inc.",
+    "market_cap": 29282541875.550003,
+    "current_price": 166.42,
+    "previous_close": 162.7,
+    "percentage_change": 2.2864167178856785,
+    "volume": 4270662,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GIS",
+    "name": "General Mills, Inc.",
+    "market_cap": 28971052240.899998,
+    "current_price": 53.19,
+    "previous_close": 51.79,
+    "percentage_change": 2.703224560726006,
+    "volume": 8647462,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LI",
+    "name": "Li Auto Inc. American Depositary Shares",
+    "market_cap": 28908999966.33,
+    "current_price": 26.83,
+    "previous_close": 26.57,
+    "percentage_change": 0.9785472337222356,
+    "volume": 4024430,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ONC",
+    "name": "BeOne Medicines Ltd. American Depositary Shares",
+    "market_cap": 28908211136.625,
+    "current_price": 245.16,
+    "previous_close": 244.1,
+    "percentage_change": 0.43424825891028357,
+    "volume": 347450,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TME",
+    "name": "Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",
+    "market_cap": 28861387097.52,
+    "current_price": 19.24,
+    "previous_close": 19.42,
+    "percentage_change": -0.9268795056642803,
+    "volume": 4577561,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HUM",
+    "name": "Humana Inc.",
+    "market_cap": 28820394895.25,
+    "current_price": 252.58,
+    "previous_close": 241.82,
+    "percentage_change": 4.449590604581929,
+    "volume": 1455987,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VTR",
+    "name": "Ventas, Inc.",
+    "market_cap": 28594690252.100002,
+    "current_price": 62.87,
+    "previous_close": 63.15,
+    "percentage_change": -0.44338875692795116,
+    "volume": 3330354,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NTR",
+    "name": "Nutrien Ltd. Common Shares",
+    "market_cap": 28586222316.32,
+    "current_price": 58.52,
+    "previous_close": 58.58,
+    "percentage_change": -0.10242403550699074,
+    "volume": 1114232,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DD",
+    "name": "DuPont de Nemours, Inc. Common Stock",
+    "market_cap": 28545796668.05,
+    "current_price": 71.45,
+    "previous_close": 68.63,
+    "percentage_change": 4.108990237505475,
+    "volume": 2970532,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BR",
+    "name": "Broadridge Financial Solutions Inc",
+    "market_cap": 28402659792,
+    "current_price": 244.73,
+    "previous_close": 241.91,
+    "percentage_change": 1.1657227894671545,
+    "volume": 523135,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TSCO",
+    "name": "Tractor Supply Co",
+    "market_cap": 28371158944.829998,
+    "current_price": 54.08,
+    "previous_close": 52.46,
+    "percentage_change": 3.088067098741894,
+    "volume": 7108335,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "KEYS",
+    "name": "Keysight Technologies, Inc.",
+    "market_cap": 28351492343.07,
+    "current_price": 164.47,
+    "previous_close": 163.15,
+    "percentage_change": 0.8090714066809642,
+    "volume": 948126,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EXE",
+    "name": "Expand Energy Corporation Common Stock",
+    "market_cap": 28338591596.12,
+    "current_price": 111.19,
+    "previous_close": 116.44,
+    "percentage_change": -4.508759876331158,
+    "volume": 3997821,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "LPLA",
+    "name": "LPL Financial Holdings Inc.",
+    "market_cap": 28319402097.9,
+    "current_price": 373.05,
+    "previous_close": 372.79,
+    "percentage_change": 0.06974436009549369,
+    "volume": 784847,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "LEN.B",
+    "name": "Lennar Corporation Class B",
+    "market_cap": 28125735364.98,
+    "current_price": 110.3,
+    "previous_close": 105.31,
+    "percentage_change": 4.738391415819955,
+    "volume": 46281,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NOK",
+    "name": "Nokia Corporation",
+    "market_cap": 28026261572.4,
+    "current_price": 5.23,
+    "previous_close": 5.16,
+    "percentage_change": 1.3565891472868272,
+    "volume": 17800297,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BBDO",
+    "name": "Banco Bradesco S.A. American Depositary Shares (Each representing one  Common Share, no par value)",
+    "market_cap": 27923311753.920002,
+    "current_price": 2.84,
+    "previous_close": 2.76,
+    "percentage_change": 2.898550724637684,
+    "volume": 47042,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "LULU",
+    "name": "lululemon athletica inc.",
+    "market_cap": 27915586925.63,
+    "current_price": 245.12,
+    "previous_close": 237.23,
+    "percentage_change": 3.3258862707077586,
+    "volume": 3879093,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ROL",
+    "name": "Rollins, Inc.",
+    "market_cap": 27876864149.120003,
+    "current_price": 56.64,
+    "previous_close": 56.47,
+    "percentage_change": 0.30104480255002963,
+    "volume": 1896975,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "WRB",
+    "name": "W.R. Berkley Corporation",
+    "market_cap": 27795402470.07,
+    "current_price": 72.86,
+    "previous_close": 73.41,
+    "percentage_change": -0.7492167279662133,
+    "volume": 2099811,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AMRZ",
+    "name": "Amrize Ltd",
+    "market_cap": 27774981990,
+    "current_price": 49.67,
+    "previous_close": 48.87,
+    "percentage_change": 1.6369961121342425,
+    "volume": 2930863,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ERIC",
+    "name": "Ericsson American Depositary Shares",
+    "market_cap": 27766277886.13,
+    "current_price": 8.55,
+    "previous_close": 8.43,
+    "percentage_change": 1.4234875444839976,
+    "volume": 22514298,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "AWK",
+    "name": "American Water Works Company, Inc",
+    "market_cap": 27726751420.7,
+    "current_price": 142.56,
+    "previous_close": 139.37,
+    "percentage_change": 2.2888713496448285,
+    "volume": 1397708,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "EL",
+    "name": "The Estee Lauder Companies Inc. Class A",
+    "market_cap": 27718890059,
+    "current_price": 85.11,
+    "previous_close": 80.75,
+    "percentage_change": 5.39938080495356,
+    "volume": 6024823,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "STLA",
+    "name": "Stellantis N.V.",
+    "market_cap": 27703037822.67,
+    "current_price": 10.22,
+    "previous_close": 9.87,
+    "percentage_change": 3.5460992907801567,
+    "volume": 35637911,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DTE",
+    "name": "DTE Energy Company",
+    "market_cap": 27645239156.04,
+    "current_price": 132.43,
+    "previous_close": 132.89,
+    "percentage_change": -0.3461509519151024,
+    "volume": 2222692,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IQV",
+    "name": "IQVIA Holdings Inc.",
+    "market_cap": 27434340000.000004,
+    "current_price": 162.61,
+    "previous_close": 157.31,
+    "percentage_change": 3.369143728942859,
+    "volume": 1497761,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CQP",
+    "name": "Cheniere Energy Partners, LP",
+    "market_cap": 27300314137.2,
+    "current_price": 55.32,
+    "previous_close": 55.85,
+    "percentage_change": -0.9489704565801274,
+    "volume": 250977,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "K",
+    "name": "Kellanova",
+    "market_cap": 27241656090.48,
+    "current_price": 79.86,
+    "previous_close": 79.45,
+    "percentage_change": 0.5160478288231549,
+    "volume": 4650709,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FITB",
+    "name": "Fifth Third Bancorp",
+    "market_cap": 27093507626.79,
+    "current_price": 42.44,
+    "previous_close": 40.8,
+    "percentage_change": 4.019607843137257,
+    "volume": 5033902,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "WBD",
+    "name": "Warner Bros. Discovery, Inc. Series A Common Stock",
+    "market_cap": 26967417532.7,
+    "current_price": 10.94,
+    "previous_close": 10.95,
+    "percentage_change": -0.09132420091324006,
+    "volume": 88003026,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "STM",
+    "name": "STMicroelectronics N.V.",
+    "market_cap": 26789110148.52,
+    "current_price": 30.07,
+    "previous_close": 30,
+    "percentage_change": 0.23333333333333425,
+    "volume": 5773407,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VRSN",
+    "name": "VeriSign Inc",
+    "market_cap": 26764316999.999996,
+    "current_price": 289.08,
+    "previous_close": 290.165,
+    "percentage_change": -0.37392518050076207,
+    "volume": 650346,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CNC",
+    "name": "Centene Corporation",
+    "market_cap": 26626736530,
+    "current_price": 56.65,
+    "previous_close": 54.32,
+    "percentage_change": 4.289396170839466,
+    "volume": 10334117,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AEE",
+    "name": "Ameren Corporation",
+    "market_cap": 26127035781.81,
+    "current_price": 96.39,
+    "previous_close": 96.1,
+    "percentage_change": 0.301768990634762,
+    "volume": 1618869,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "RDDT",
+    "name": "Reddit, Inc.",
+    "market_cap": 25978656963.48,
+    "current_price": 152.23,
+    "previous_close": 151.82,
+    "percentage_change": 0.270056646028189,
+    "volume": 8713533,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FWONK",
+    "name": "Liberty Media Corporation Series C Liberty Formula One Common Stock",
+    "market_cap": 25892125687.2,
+    "current_price": 101.82,
+    "previous_close": 104.26,
+    "percentage_change": -2.3403030884327753,
+    "volume": 1361587,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PPG",
+    "name": "PPG Industries, Inc.",
+    "market_cap": 25847901156.48,
+    "current_price": 116.41,
+    "previous_close": 113.25,
+    "percentage_change": 2.7902869757174362,
+    "volume": 2055101,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "UAL",
+    "name": "United Airlines Holdings, Inc. Common Stock",
+    "market_cap": 25807977041.399998,
+    "current_price": 80.05,
+    "previous_close": 79.29,
+    "percentage_change": 0.9585067473830127,
+    "volume": 5013134,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "EQR",
+    "name": "Equity Residential",
+    "market_cap": 25661395471.800003,
+    "current_price": 67.26,
+    "previous_close": 67.2,
+    "percentage_change": 0.08928571428571766,
+    "volume": 3192761,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "GDDY",
+    "name": "GoDaddy Inc",
+    "market_cap": 25575205402.59,
+    "current_price": 178.4,
+    "previous_close": 179.68,
+    "percentage_change": -0.7123775601068573,
+    "volume": 1268379,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SMCI",
+    "name": "Super Micro Computer, Inc. Common Stock",
+    "market_cap": 25567667954.640003,
+    "current_price": 47.2,
+    "previous_close": 48.24,
+    "percentage_change": -2.1558872305140944,
+    "volume": 42243094,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "VOD",
+    "name": "Vodafone Group PLC",
+    "market_cap": 25565342001.12,
+    "current_price": 10.91,
+    "previous_close": 10.84,
+    "percentage_change": 0.6457564575645782,
+    "volume": 11219913,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "DRI",
+    "name": "Darden Restaurants, Inc.",
+    "market_cap": 25448527455.16,
+    "current_price": 219.6,
+    "previous_close": 217.66,
+    "percentage_change": 0.891298355232931,
+    "volume": 1518050,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ADM",
+    "name": "Archer Daniels Midland Company",
+    "market_cap": 25430219293.95,
+    "current_price": 54.45,
+    "previous_close": 52.68,
+    "percentage_change": 3.359908883826885,
+    "volume": 5012212,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SBAC",
+    "name": "SBA Communications Corp",
+    "market_cap": 25421515865.2,
+    "current_price": 238.74,
+    "previous_close": 234.39,
+    "percentage_change": 1.855881223601699,
+    "volume": 846711,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "TYL",
+    "name": "Tyler Technologies, Inc.",
+    "market_cap": 25383812881.98,
+    "current_price": 590.05,
+    "previous_close": 588.84,
+    "percentage_change": 0.20548875755721802,
+    "volume": 347431,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FCNCA",
+    "name": "First Citizens BancShares Inc",
+    "market_cap": 25360726201.2,
+    "current_price": 2043.31,
+    "previous_close": 1952.21,
+    "percentage_change": 4.6665061648080846,
+    "volume": 99922,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "PPL",
+    "name": "PPL Corporation",
+    "market_cap": 25290218429.52,
+    "current_price": 33.99,
+    "previous_close": 33.91,
+    "percentage_change": 0.2359186080802283,
+    "volume": 4755349,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "BNTX",
+    "name": "BioNTech SE American Depositary Share",
+    "market_cap": 25263155528.52,
+    "current_price": 107.51,
+    "previous_close": 107.13,
+    "percentage_change": 0.35470923177448865,
+    "volume": 673273,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "MKL",
+    "name": "Markel Group Inc.",
+    "market_cap": 25229588749.260002,
+    "current_price": 1994.21,
+    "previous_close": 1990.59,
+    "percentage_change": 0.1818556307426501,
+    "volume": 54202,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FOXA",
+    "name": "Fox Corporation Class A Common Stock",
+    "market_cap": 25133656597.399998,
+    "current_price": 55.97,
+    "previous_close": 55.76,
+    "percentage_change": 0.37661406025825117,
+    "volume": 5647951,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "DG",
+    "name": "Dollar General Corp.",
+    "market_cap": 24936200932.41,
+    "current_price": 115.3,
+    "previous_close": 114.24,
+    "percentage_change": 0.9278711484593858,
+    "volume": 2834993,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CVE",
+    "name": "Cenovus Energy Inc.",
+    "market_cap": 24866910090,
+    "current_price": 13.87,
+    "previous_close": 13.62,
+    "percentage_change": 1.8355359765051396,
+    "volume": 6507854,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "ATO",
+    "name": "Atmos Energy Corporation",
+    "market_cap": 24848439004.16,
+    "current_price": 153.65,
+    "previous_close": 153.92,
+    "percentage_change": -0.1754158004157886,
+    "volume": 980324,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "VLTO",
+    "name": "Veralto Corporation",
+    "market_cap": 24828253098.39,
+    "current_price": 102.6,
+    "previous_close": 100.66,
+    "percentage_change": 1.9272799523147206,
+    "volume": 1055934,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "SYF",
+    "name": "SYNCHRONY FINANCIAL",
+    "market_cap": 24716060178.74,
+    "current_price": 68.17,
+    "previous_close": 66.8,
+    "percentage_change": 2.0508982035928214,
+    "volume": 3797332,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "DOV",
+    "name": "Dover Corporation",
+    "market_cap": 24670559797.98,
+    "current_price": 186.16,
+    "previous_close": 182.65,
+    "percentage_change": 1.921708185053376,
+    "volume": 912526,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MTD",
+    "name": "Mettler-Toledo International",
+    "market_cap": 24631342311.48,
+    "current_price": 1205.29,
+    "previous_close": 1171,
+    "percentage_change": 2.928266438941073,
+    "volume": 115639,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TPL",
+    "name": "Texas Pacific Land Corporation",
+    "market_cap": 24365186320.440002,
+    "current_price": 1068.68,
+    "previous_close": 1055.16,
+    "percentage_change": 1.2813222639220574,
+    "volume": 127807,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "IX",
+    "name": "ORIX Corporation American Depositary Shares (each representing One (1) Share of Common Stock)",
+    "market_cap": 24138866982,
+    "current_price": 22.76,
+    "previous_close": 22.76,
+    "percentage_change": 0,
+    "volume": 285186,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CBOE",
+    "name": "Cboe Global Markets, Inc.",
+    "market_cap": 24125954918.4,
+    "current_price": 232,
+    "previous_close": 233.71,
+    "percentage_change": -0.7316760087287698,
+    "volume": 741374,
+    "primary_exchange": "BATS"
+  },
+  {
+    "ticker": "TU",
+    "name": "Telus Corporation",
+    "market_cap": 24120563638.68,
+    "current_price": 16.28,
+    "previous_close": 16.13,
+    "percentage_change": 0.9299442033478125,
+    "volume": 2127066,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NTRS",
+    "name": "Northern Trust Corp",
+    "market_cap": 24083875585,
+    "current_price": 127.99,
+    "previous_close": 126.12,
+    "percentage_change": 1.4827148747224788,
+    "volume": 2554323,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "UI",
+    "name": "Ubiquiti Inc. Common Stock",
+    "market_cap": 24053738661.8,
+    "current_price": 409.02,
+    "previous_close": 407.15,
+    "percentage_change": 0.4592901878914417,
+    "volume": 201348,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FTV",
+    "name": "Fortive Corporation",
+    "market_cap": 24019480656.93,
+    "current_price": 53.16,
+    "previous_close": 52.07,
+    "percentage_change": 2.0933358939888542,
+    "volume": 6551319,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "TOST",
+    "name": "Toast, Inc.",
+    "market_cap": 24008369719.5,
+    "current_price": 43.03,
+    "previous_close": 44.1,
+    "percentage_change": -2.4263038548752838,
+    "volume": 5432426,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "PINS",
+    "name": "Pinterest, Inc. Class A Common Stock",
+    "market_cap": 23911957503.660004,
+    "current_price": 35.68,
+    "previous_close": 36,
+    "percentage_change": -0.8888888888888897,
+    "volume": 8239350,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise Company",
+    "market_cap": 23816713503,
+    "current_price": 20.48,
+    "previous_close": 20.12,
+    "percentage_change": 1.7892644135188838,
+    "volume": 26402573,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CNP",
+    "name": "CenterPoint Energy, Inc.",
+    "market_cap": 23811531959.039997,
+    "current_price": 36.52,
+    "previous_close": 36.53,
+    "percentage_change": -0.027374760470840434,
+    "volume": 5359136,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CHKP",
+    "name": "Check Point Software Technologies Ltd",
+    "market_cap": 23793392909.88,
+    "current_price": 221.08,
+    "previous_close": 221.52,
+    "percentage_change": -0.1986276634163948,
+    "volume": 889045,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "FTS",
+    "name": "Fortis Inc. Common Shares",
+    "market_cap": 23760533170.32,
+    "current_price": 47.82,
+    "previous_close": 47.91,
+    "percentage_change": -0.1878522229179635,
+    "volume": 333135,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "HBAN",
+    "name": "Huntington Bancshares Inc",
+    "market_cap": 23687756957.460003,
+    "current_price": 17.18,
+    "previous_close": 16.75,
+    "percentage_change": 2.567164179104476,
+    "volume": 48629304,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "CDW",
+    "name": "CDW Corporation",
+    "market_cap": 23682257376,
+    "current_price": 181.16,
+    "previous_close": 178.58,
+    "percentage_change": 1.4447306529286503,
+    "volume": 958401,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "GIB",
+    "name": "CGI Inc.",
+    "market_cap": 23680045548,
+    "current_price": 105.86,
+    "previous_close": 104.38,
+    "percentage_change": 1.417896148687492,
+    "volume": 165873,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "CHD",
+    "name": "Church \u0026 Dwight Co., Inc.",
+    "market_cap": 23647549706.7,
+    "current_price": 97.64,
+    "previous_close": 96.23,
+    "percentage_change": 1.4652395302920052,
+    "volume": 2415063,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "STE",
+    "name": "STERIS plc",
+    "market_cap": 23645432222.23,
+    "current_price": 242.66,
+    "previous_close": 239.13,
+    "percentage_change": 1.4761845021536408,
+    "volume": 918422,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "MT",
+    "name": "ArcelorMittal",
+    "market_cap": 23591887586.3,
+    "current_price": 31.22,
+    "previous_close": 30.65,
+    "percentage_change": 1.8597063621533454,
+    "volume": 1555678,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "NTRA",
+    "name": "Natera, Inc. Common Stock",
+    "market_cap": 23468260704.600002,
+    "current_price": 160.72,
+    "previous_close": 166.8,
+    "percentage_change": -3.6450839328537246,
+    "volume": 1362069,
+    "primary_exchange": "XNAS"
+  },
+  {
+    "ticker": "ES",
+    "name": "Eversource Energy",
+    "market_cap": 23453846142.72,
+    "current_price": 64.55,
+    "previous_close": 63.68,
+    "percentage_change": 1.3662060301507497,
+    "volume": 2135214,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "AU",
+    "name": "AngloGold Ashanti plc",
+    "market_cap": 23390143256,
+    "current_price": 45.8,
+    "previous_close": 47.18,
+    "percentage_change": -2.924968206867322,
+    "volume": 3171818,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FE",
+    "name": "FirstEnergy Corp.",
+    "market_cap": 23380599444.44,
+    "current_price": 40.38,
+    "previous_close": 40.3,
+    "percentage_change": 0.19851116625311513,
+    "volume": 5381415,
+    "primary_exchange": "XNYS"
+  },
+  {
+    "ticker": "FWONA",
+    "name": "Liberty Media Corporation Series A Liberty Formula One Common Stock",
+    "market_cap": 23322868514,
+    "current_price": 91.77,
+    "previous_close": 94.63,
+    "percentage_change": -3.0222973686991437,
+    "volume": 90451,
+    "primary_exchange": "XNAS"
+  }
+]

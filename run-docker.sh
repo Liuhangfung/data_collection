@@ -33,6 +33,12 @@ docker run --rm \
     -v "$(pwd)/logs:/app/logs" \
     --memory=2g \
     --cpus=1.0 \
+    --shm-size=2g \
+    --tmpfs /tmp:size=2G,mode=1777 \
+    --tmpfs /tmp/chrome-user-data:size=500M,mode=777 \
+    --tmpfs /tmp/chrome-cache:size=500M,mode=777 \
+    -e WDM_CACHE_ROOT=/tmp/chrome-cache \
+    -e WDM_LOG_LEVEL=0 \
     algotradar-scraper python "$SCRIPT_NAME"
 
 echo "✅ Scraper completed!" 

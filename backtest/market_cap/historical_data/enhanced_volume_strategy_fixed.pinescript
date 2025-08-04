@@ -1,0 +1,267 @@
+// © Enhanced Volume Strategy Pro - Clean Version
+// Advanced Volume Profile Strategy with Trend Awareness and Risk Management
+// Pine Script v6 Compatible - No Scope Errors
+
+//@version=6
+strategy("Enhanced Volume Strategy Pro", "EVS Pro", overlay=true, initial_capital=100000, default_qty_type=strategy.percent_of_equity, commission_type=strategy.commission.percent, commission_value=0.1, max_boxes_count=500, max_lines_count=500)
+
+//---------------------------------------------------------------------------------//
+//                            STRATEGY SETTINGS                                    //
+//---------------------------------------------------------------------------------//
+
+// === Core Strategy Parameters ===
+var g_strategy = "=== Strategy Parameters ==="
+maxPositionSize = input.float(0.10, "Max Position Size", minval=0.01, maxval=0.50, step=0.01, group=g_strategy)
+stopLossPercent = input.float(0.05, "Stop Loss %", minval=0.01, maxval=0.20, step=0.01, group=g_strategy)
+takeProfitPercent = input.float(0.15, "Take Profit %", minval=0.05, maxval=0.50, step=0.01, group=g_strategy)
+
+// === Volume Profile Settings ===
+var g_profile = "=== Volume Profile ==="
+profileLookback = input.int(200, "Profile Lookback", minval=50, maxval=500, group=g_profile)
+profileRows = input.int(25, "Profile Rows", minval=15, maxval=50, group=g_profile)
+showVolumeProfile = input.bool(true, "Show Volume Profile", group=g_profile)
+showSmartLevels = input.bool(true, "Show Smart Levels", group=g_profile)
+
+// === Signal Settings ===
+var g_signals = "=== Signal Configuration ==="
+volumeThreshold = input.float(2.5, "Volume Breakout Threshold", minval=1.5, maxval=5.0, step=0.1, group=g_signals)
+rsiOversold = input.int(30, "RSI Oversold", minval=20, maxval=40, group=g_signals)
+rsiOverbought = input.int(70, "RSI Overbought", minval=60, maxval=80, group=g_signals)
+
+// === Visual Settings ===
+var g_visual = "=== Visual Settings ==="
+showSignals = input.bool(true, "Show Entry/Exit Signals", group=g_visual)
+showDashboard = input.bool(true, "Show Performance Dashboard", group=g_visual)
+
+//---------------------------------------------------------------------------------//
+//                            TECHNICAL INDICATORS                                 //
+//---------------------------------------------------------------------------------//
+
+// Trend Indicators
+sma20 = ta.sma(close, 20)
+sma50 = ta.sma(close, 50)
+ema12 = ta.ema(close, 12)
+ema26 = ta.ema(close, 26)
+macd = ema12 - ema26
+macdSignal = ta.ema(macd, 9)
+rsi = ta.rsi(close, 14)
+
+// Volume Indicators
+volumeSMA = ta.sma(volume, 20)
+volumeRatio = volume / volumeSMA
+volumeRSI = ta.rsi(volume, 14)
+
+// Volume Pressure
+buyingPressure = close > open ? volume : 0
+sellingPressure = close < open ? volume : 0
+volumeDelta = buyingPressure - sellingPressure
+cumulativeDelta = ta.cum(volumeDelta)
+
+// Institutional Flow Detection
+institutionalThreshold = volumeSMA * 3
+institutionalFlow = volume > institutionalThreshold
+
+// Market Regime Detection
+isUptrend = sma20 > sma50 and close > sma20
+isDowntrend = sma20 < sma50 and close < sma20
+isRanging = not isUptrend and not isDowntrend
+
+// Price and Volume Momentum
+priceMomentum = ta.sma(ta.change(close, 5), 5) / close
+volumeMomentum = ta.sma(ta.change(volume, 5), 5) / volumeSMA
+
+//---------------------------------------------------------------------------------//
+//                            SIMPLIFIED VOLUME PROFILE                            //
+//---------------------------------------------------------------------------------//
+
+// Calculate basic volume profile levels
+profileHigh = ta.highest(high, profileLookback)
+profileLow = ta.lowest(low, profileLookback)
+profileMid = (profileHigh + profileLow) / 2
+
+// Simplified POC calculation using recent volume-weighted average
+pocPrice = ta.vwma(hl2, profileLookback)
+
+// Simplified Value Area (approximation)
+priceRange = profileHigh - profileLow
+vaHigh = pocPrice + priceRange * 0.3
+vaLow = pocPrice - priceRange * 0.3
+
+//---------------------------------------------------------------------------------//
+//                            TRADING SIGNALS                                      //
+//---------------------------------------------------------------------------------//
+
+// Volume-based signals
+volumeBreakout = volumeRatio > volumeThreshold
+institutionalActivity = institutionalFlow
+
+// Trend-following signals
+bullishTrend = isUptrend and macd > macdSignal and rsi > 45 and rsi < 75 and ta.change(cumulativeDelta) > 0
+bearishTrend = isDowntrend and macd < macdSignal and rsi < 55 and rsi > 25 and ta.change(cumulativeDelta) < 0
+
+// Volume Profile signals
+pocSupport = close <= pocPrice * 1.02 and close >= pocPrice * 0.98 and isUptrend and volumeRatio > 1.2
+vaBreakout = (close > vaHigh and isUptrend) or (close < vaLow and isDowntrend)
+
+// Mean reversion signals
+oversoldReversal = isRanging and rsi < rsiOversold and volumeRatio > 1.5 and ta.change(cumulativeDelta) > 0
+overboughtReversal = isRanging and rsi > rsiOverbought and volumeRatio > 1.5 and ta.change(cumulativeDelta) < 0
+
+// Divergence signals
+bullishDivergence = priceMomentum < -0.02 and volumeMomentum > 0.1 and rsi < 40
+bearishDivergence = priceMomentum > 0.02 and volumeMomentum < -0.1 and rsi > 60
+
+// Exit signals
+profitTake = rsi > 80 or rsi < 20 or volumeRatio < 0.5
+
+//---------------------------------------------------------------------------------//
+//                            POSITION SIZING & SIGNALS                           //
+//---------------------------------------------------------------------------------//
+
+// Calculate signal strength
+longSignalStrength = (bullishTrend ? 3 : 0) + (pocSupport ? 2 : 0) + (oversoldReversal ? 2 : 0) + (bullishDivergence ? 2 : 0) + (volumeBreakout ? 1 : 0) + (institutionalActivity ? 1 : 0)
+
+shortSignalStrength = (bearishTrend ? 3 : 0) + (vaBreakout ? 2 : 0) + (overboughtReversal ? 2 : 0) + (bearishDivergence ? 2 : 0)
+
+// Normalize to position size
+maxLongSignal = 11
+maxShortSignal = 9
+
+targetLongPosition = longSignalStrength / maxLongSignal * maxPositionSize
+targetShortPosition = shortSignalStrength / maxShortSignal * maxPositionSize
+
+// Entry conditions
+longEntry = targetLongPosition > 0.01 and strategy.position_size == 0
+shortEntry = targetShortPosition > 0.01 and strategy.position_size == 0
+
+// Exit conditions
+longExit = strategy.position_size > 0 and (profitTake or targetShortPosition > 0.01)
+shortExit = strategy.position_size < 0 and (profitTake or targetLongPosition > 0.01)
+
+//---------------------------------------------------------------------------------//
+//                            STRATEGY EXECUTION                                   //
+//---------------------------------------------------------------------------------//
+
+// Long entries
+if longEntry
+    strategy.entry("Long", strategy.long, qty=targetLongPosition)
+
+// Short entries  
+if shortEntry
+    strategy.entry("Short", strategy.short, qty=targetShortPosition)
+
+// Risk management
+if strategy.position_size > 0
+    stopPrice = strategy.position_avg_price * (1 - stopLossPercent)
+    profitPrice = strategy.position_avg_price * (1 + takeProfitPercent)
+    strategy.exit("Long Exit", "Long", stop=stopPrice, limit=profitPrice)
+
+if strategy.position_size < 0
+    stopPrice = strategy.position_avg_price * (1 + stopLossPercent)
+    profitPrice = strategy.position_avg_price * (1 - takeProfitPercent)
+    strategy.exit("Short Exit", "Short", stop=stopPrice, limit=profitPrice)
+
+// Force exits on signal reversal
+if longExit
+    strategy.close("Long", comment="Signal Exit")
+if shortExit
+    strategy.close("Short", comment="Signal Exit")
+
+//---------------------------------------------------------------------------------//
+//                            VISUALIZATION (GLOBAL SCOPE)                         //
+//---------------------------------------------------------------------------------//
+
+// Plot trend indicators
+plot(sma20, "SMA 20", color=color.blue, linewidth=1)
+plot(sma50, "SMA 50", color=color.red, linewidth=2)
+
+// Volume Profile - Drawing functions must be in local scope
+var line pocLine = na
+var box vaBox = na
+
+if barstate.islast and showVolumeProfile
+    // Clean up previous drawings
+    if not na(pocLine)
+        line.delete(pocLine)
+    if not na(vaBox)
+        box.delete(vaBox)
+    
+    // Draw new volume profile
+    pocLine := line.new(bar_index - profileLookback, pocPrice, bar_index + 20, pocPrice, color=color.yellow, width=3, style=line.style_solid)
+    vaBox := box.new(bar_index - profileLookback, vaLow, bar_index, vaHigh, bgcolor=color.new(color.blue, 90), border_color=color.blue)
+
+// Signal markers (must be in global scope)
+plotshape(showSignals and longEntry, "Long Entry", shape.triangleup, location.belowbar, color=color.green, size=size.normal)
+plotshape(showSignals and shortEntry, "Short Entry", shape.triangledown, location.abovebar, color=color.red, size=size.normal)
+plotshape(showSignals and bullishDivergence, "Bullish Div", shape.diamond, location.belowbar, color=color.lime, size=size.small)
+plotshape(showSignals and bearishDivergence, "Bearish Div", shape.diamond, location.abovebar, color=color.orange, size=size.small)
+
+// Volume indicators (for study mode)
+plot(volumeRatio, "Volume Ratio", color=color.blue, linewidth=2, display=display.data_window)
+plot(longSignalStrength, "Long Signal", color=color.green, linewidth=2, display=display.data_window)
+plot(shortSignalStrength, "Short Signal", color=color.red, linewidth=2, display=display.data_window)
+
+// Reference lines
+hline(rsiOverbought, "RSI Overbought", color=color.red, linestyle=hline.style_dashed)
+hline(rsiOversold, "RSI Oversold", color=color.green, linestyle=hline.style_dashed)
+
+//---------------------------------------------------------------------------------//
+//                            PERFORMANCE DASHBOARD                                //
+//---------------------------------------------------------------------------------//
+
+var table dashboard = na
+
+if showDashboard and barstate.islast
+    // Delete previous table
+    if not na(dashboard)
+        table.delete(dashboard)
+    
+    // Create new dashboard
+    dashboard := table.new(position.top_right, 2, 8, bgcolor=color.white, border_width=1)
+    
+    // Performance metrics
+    totalTrades = strategy.closedtrades
+    winRate = totalTrades > 0 ? strategy.wintrades / totalTrades * 100 : 0
+    profitFactor = strategy.grossloss != 0 ? math.abs(strategy.grossprofit / strategy.grossloss) : 0
+    
+    // Current signals
+    currentSignal = longSignalStrength > shortSignalStrength ? "LONG" : shortSignalStrength > longSignalStrength ? "SHORT" : "NEUTRAL"
+    
+    // Market regime
+    regime = isUptrend ? "UPTREND" : isDowntrend ? "DOWNTREND" : "RANGING"
+    
+    // Fill dashboard
+    table.cell(dashboard, 0, 0, "Enhanced Strategy", bgcolor=color.blue, text_color=color.white)
+    table.cell(dashboard, 1, 0, "", bgcolor=color.blue)
+    
+    table.cell(dashboard, 0, 1, "Net Profit", text_color=color.black)
+    table.cell(dashboard, 1, 1, str.tostring(strategy.netprofit, "$#,###"), text_color=color.black)
+    
+    table.cell(dashboard, 0, 2, "Total Trades", text_color=color.black)
+    table.cell(dashboard, 1, 2, str.tostring(totalTrades), text_color=color.black)
+    
+    table.cell(dashboard, 0, 3, "Win Rate", text_color=color.black)
+    table.cell(dashboard, 1, 3, str.tostring(winRate, "#.#"), text_color=color.black)
+    
+    table.cell(dashboard, 0, 4, "Profit Factor", text_color=color.black)
+    table.cell(dashboard, 1, 4, str.tostring(profitFactor, "#.##"), text_color=color.black)
+    
+    table.cell(dashboard, 0, 5, "Signal", text_color=color.black)
+    table.cell(dashboard, 1, 5, currentSignal, text_color=color.black)
+    
+    table.cell(dashboard, 0, 6, "Regime", text_color=color.black)
+    table.cell(dashboard, 1, 6, regime, text_color=color.black)
+    
+    table.cell(dashboard, 0, 7, "Volume Ratio", text_color=color.black)
+    table.cell(dashboard, 1, 7, str.tostring(volumeRatio, "#.##"), text_color=color.black)
+
+//---------------------------------------------------------------------------------//
+//                            ALERTS                                               //
+//---------------------------------------------------------------------------------//
+
+// Entry alerts (const string messages required for v6)
+alertcondition(longEntry, title="Long Entry", message="EVS Pro: LONG signal triggered")
+alertcondition(shortEntry, title="Short Entry", message="EVS Pro: SHORT signal triggered")
+alertcondition(volumeBreakout, title="Volume Breakout", message="High volume breakout detected")
+alertcondition(bullishDivergence, title="Bullish Divergence", message="Bullish volume-price divergence")
+alertcondition(bearishDivergence, title="Bearish Divergence", message="Bearish volume-price divergence") 

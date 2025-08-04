@@ -13,6 +13,13 @@ services:
     # ports:
     #   - "8080:8080"
     
+    # Chrome-specific Docker settings
+    shm_size: 2gb  # Increase shared memory for Chrome
+    tmpfs:
+      - /tmp:size=2G,mode=1777  # Writable temp directory (increased)
+      - /tmp/chrome-user-data:size=500M,mode=777  # Chrome user data
+      - /tmp/chrome-cache:size=500M,mode=777  # Chrome driver cache
+    
     # Resource limits (adjust based on your needs)
     deploy:
       resources:
